@@ -2,6 +2,7 @@
 from pathlib import Path
 import csv
 import re
+import json
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -20,12 +21,21 @@ def main():
                             analysis_note=analysis,inspection_depth=depth))
     ids={row['id'] for row in records}
     bib_ids=set(re.findall(r'@\w+\{([A-Z]\d{2}),',(ROOT/'manuscript/references.bib').read_text(encoding='utf-8')))
-    if len(records)!=60 or len(ids)!=len(records) or ids!=bib_ids:
-        raise ValueError('Register size, duplicate IDs, or bibliography IDs need review.')
+    supplement=json.loads((ROOT/'supplemental-search.json').read_text(encoding='utf-8'))['records']
+    supplemental_ids={row['id'] for row in supplement}
+    extra_bib_ids=set(re.findall(r'@\w+\{([A-Z]\d{2}),',(ROOT/'supplemental-references.bib').read_text(encoding='utf-8')))
+    if (len(ids)!=len(records) or len(supplemental_ids)!=len(supplement)
+            or bib_ids & extra_bib_ids or ids!=bib_ids|extra_bib_ids
+            or supplemental_ids!=extra_bib_ids):
+        raise ValueError('Duplicate IDs or register/bibliography/provenance IDs need review.')
+    titles=[re.sub(r'[^a-z0-9]','',row['title'].lower()) for row in records]
+    if len(set(titles))!=len(titles):
+        raise ValueError('Duplicate normalized titles need study-family review.')
     output=ROOT/'data/papers.csv'
+    output.parent.mkdir(exist_ok=True)
     with output.open('w',encoding='utf-8',newline='') as stream:
         writer=csv.DictWriter(stream,fieldnames=list(records[0]))
         writer.writeheader();writer.writerows(records)
-    print(f'Exported {len(records)} records with bibliography-matched IDs.')
+    print(f'Exported {len(records)} unique records: {len(bib_ids)} manuscript bibliography IDs and {len(extra_bib_ids)} supplemental candidates.')
 
 if __name__=='__main__':main()

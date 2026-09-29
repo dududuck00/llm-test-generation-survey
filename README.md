@@ -6,9 +6,12 @@ This repository connects testing objectives and generated artifacts with informa
 
 ## Read the collection
 
-- [Literature register](papers.md): 60 source records, grouped by topic, with primary-source links, analytical notes, and inspection depth.
-- [CSV register](data/papers.csv): the same 60 records in a filterable format.
-- [Bibliography](manuscript/references.bib): citation keys correspond to source IDs in the register.
+- [Literature register](papers.md): 95 source records, grouped by topic, with primary-source links, analytical notes, and inspection depth.
+- [CSV register](data/papers.csv): the same 95 records in a filterable format.
+- [Manuscript bibliography](manuscript/references.bib): the original 60 source IDs used by the current draft.
+- [Supplemental bibliography](supplemental-references.bib): 35 newly screened citation candidates, not yet integrated into the draft.
+- [Supplemental search and synthesis](supplemental-review.md): new coverage, priority evidence cards, screening decisions, and outline mapping.
+- [Supplemental provenance](supplemental-search.json): authors, inspected versions, source status, and proposed section mapping for those 35 additions.
 - [Search and verification notes](search-notes.md): search families, inspected passages, source restrictions, and coverage gaps.
 - [Review outline](docs/survey-plan.md): research questions and the proposed synthesis structure.
 - [Survey manuscript](manuscript/main.pdf): the current 21-page English draft.
@@ -16,7 +19,7 @@ This repository connects testing objectives and generated artifacts with informa
 
 ## Current research status
 
-The collection was assembled through **28 September 2026**. It contains seven surveys/roadmaps and 53 method, benchmark, empirical, and historical records. It is a preliminary curated collection supporting a **structured narrative survey**, not a completed systematic literature review or an exhaustive population of studies.
+The collection was updated through **29 September 2026**. It contains seven surveys/roadmaps and 88 method, benchmark, empirical, and historical records. The supplement adds 35 records to the original 60-record collection. It is a preliminary curated collection supporting a **structured narrative survey**, not a completed systematic literature review or an exhaustive population of studies. The current manuscript PDF and its figures still reflect the original collection; integrating the supplement into the manuscript is pending.
 
 The register distinguishes abstract/metadata inspection from selected full-text inspection. Independent dual screening, complete variant-level extraction, inter-rater validation, and experimental reproduction have not been completed. No cross-paper performance ranking or pooled effect size is claimed. See [research status and review access](docs/research-status.md).
 
@@ -40,7 +43,7 @@ See [build instructions](manuscript/README.md). The CSV can be regenerated from 
 python scripts/export_register.py
 ```
 
-The export checks that the literature IDs agree with the bibliography and that the current collection has 60 unique records. It does not establish the scientific correctness of the classifications.
+The export checks unique IDs and normalized titles, agreement with the combined manuscript and supplemental bibliographies, and consistency with the supplemental provenance. It does not establish the scientific correctness of the classifications or replace study-family screening.
 
 ## Review distribution
 
@@ -52,4 +55,4 @@ Paper titles, source URLs, and bibliographic records identify their original aut
 
 ## 中文说明
 
-本仓库整理 LLM 测试生成相关文献、检索与核验记录、综述初稿和可编辑矢量图。60 条记录是初步调研集合，逐条保留检查深度；尚未完成系统综述的独立筛选、全文编码和实验复现。`papers.md` 适合阅读，`data/papers.csv` 适合筛选整理，`manuscript/` 提供论文及重建材料。
+本仓库整理 LLM 测试生成相关文献、检索与核验记录、综述初稿和可编辑矢量图。2026-09-29 补充 35 条后共 95 条，逐条保留检查深度；尚未完成系统综述的独立筛选、全文编码和实验复现。`papers.md` 适合阅读，`data/papers.csv` 适合筛选整理，`supplemental-review.md` 说明新增文献如何整合；`manuscript/` 的当前论文仍对应原 60 条集合，正文整合待完成。

@@ -2,12 +2,16 @@
 
 ## Collection and evidence
 
-- Collection cutoff: 28 September 2026.
-- Source register: 60 records, including seven surveys/roadmaps.
+- Latest retrieval date: 29 September 2026; this is not an exhaustive database-search cutoff.
+- Source register: 95 records, including seven surveys/roadmaps and 35 screened additions to the original collection.
 - Current manuscript: structured narrative synthesis, with three conceptual figures and four tables.
 - Most records: abstract and bibliographic metadata checked against a primary source.
 - Selected records: relevant full-text passages checked; the register identifies inspection depth.
 - Pending: systematic multi-database retrieval, final study-family screening, complete variant-level coding, independent coding validation, and any quantitative synthesis.
+
+The current manuscript PDF, prose, citation set, and figures still reflect the original 60-record collection. The supplemental search does not imply that the manuscript has already been revised. See [supplemental synthesis](../supplemental-review.md) for chapter mapping and source-specific evidence boundaries. Two discovered surveys remain pending primary full-text access; withdrawn VisiDroid and hardware AssertionBench were not included in the core register.
+
+The S03 register entry now records arXiv v3 and its abstract-reported 178 publications through 31 July 2026. Its earlier v2 count of 115 and earlier full-text inspection should not be treated as a current-version full-text audit. The manuscript's discussion of existing reviews needs to be revisited during integration.
 
 The repository contains no reproduced model-performance results, experiment logs, trained checkpoints, or evidence that a proposed research mechanism has been validated.
 

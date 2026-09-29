@@ -1,8 +1,8 @@
-# LLM 测试用例生成综述：初步文献库
+# LLM 测试用例生成综述：文献库
 
-检索日期：2026-09-28。用途：确定综述范围、分类体系及精读顺序。本文献库是一轮广泛调研形成的种子集合，不是完成系统检索后的全量纳入集合。
+初始检索：2026-09-28；补充检索：2026-09-29。当前 95 条记录（7 条综述/路线图、88 条其他研究），本轮新增 35 条。用途：确定综述范围、分类体系及精读顺序。本文献库是一轮广泛调研形成的种子集合，不是完成系统检索后的全量纳入集合。
 
-核验层级：所有条目均有本轮访问的一手论文页、正式论文正文或作者项目页；多数方法目前核验到摘要及元数据。标记“正文”的条目额外检查了与分类相关的正文内容，但不代表全文审计或效果复现。年份用首次公开年份及当前版本/正式发表年份并列；未核实正式场所时直接标注 arXiv，不能据此断言尚未录用。综述、历史前驱、邻近应用与核心方法分开使用。数值结果不做跨论文排名。
+核验层级：条目均在相应登记轮次访问了一手论文页、正式论文正文或作者项目页；多数方法目前核验到摘要及元数据。标记“正文”的条目额外检查了与分类相关的正文内容，但不代表全文审计或效果复现。年份用首次公开年份及当前版本/正式发表年份并列；未核实正式场所时直接标注 arXiv，不能据此断言尚未录用。综述、历史前驱、邻近应用与核心方法分开使用。数值结果不做跨论文排名。
 
 ## 已有综述：用于定位与滚雪球检索
 
@@ -10,7 +10,7 @@
 |---|---|---|---|---|---|
 | S01 | [Software Testing with Large Language Models: Survey, Landscape, and Vision](https://arxiv.org/abs/2307.07221) | 2023/2024；TSE | survey | 广义测试任务与 LLM 技术；102 项研究包含程序修复，不能当成测试生成文献总数 | 摘要、元数据 |
 | S02 | [Large Language Models for Unit Testing: A Systematic Literature Review](https://arxiv.org/abs/2506.15227) | 2025；arXiv | survey | 单元测试任务、模型适配与混合方法；范围截至 2025-03；包含 oracle | 正文分类框架 |
-| S03 | [Large Language Models for Unit Test Generation: Achievements, Challenges, and Opportunities](https://arxiv.org/abs/2511.21382) | 2025；arXiv v2 | survey | 115 项研究；生成与质量保证两阶段；已有生命周期、oracle、维护、指标错位讨论 | 正文目录、RQ、分类框架 |
+| S03 | [Large Language Models for Unit Test Generation: Achievements, Challenges, and Opportunities](https://arxiv.org/abs/2511.21382) | 2025/2026；arXiv v3，2026-09-27 更新 | survey | 当前摘要报告 178 项，截止 2026-07-31；生成与质量保证生命周期；旧 v2 的 115 项不用于当前版本 | 本轮 v3 摘要、元数据；旧轮 v2 正文分类不可自动视作 v3 已精读 |
 | S04 | [Large Language Models for Software Testing: A Research Roadmap](https://arxiv.org/abs/2509.25043) | 2025；arXiv | survey | 广义测试研究路线图；用于确认已有方向与分类覆盖 | 摘要、元数据 |
 | S05 | [Requirements-Based Test Generation: A Comprehensive Survey](https://arxiv.org/abs/2505.02015) | 2025/2026；v3 标注 TOSEM 接收 | survey | 需求表示、方法、工具、评价和工业应用；包含传统及形式规格方法 | 摘要、元数据 |
 | S06 | [AI-Driven Test Case Generation from Natural Language Requirements: A Survey of Techniques and Research Gaps](https://arxiv.org/abs/2606.06563) | 2026；arXiv | survey | 2000–2025 范围内筛选 21 项研究；并非仅现代 LLM | 摘要、元数据 |
@@ -31,6 +31,13 @@
 | U09 | [Multi-Agent LLM Collaboration for Unit Test Generation via Human-Testing-Inspired Workflows — TestAgent](https://arxiv.org/abs/2607.09101) | 2026；arXiv | pure method | 规划、生成、评审 agent；静态分析知识图谱和动态工具调用 | 仓库上下文与推理期自主决策；planner 生成的 test requirements 不等于外部需求 | 摘要 |
 | U10 | [Test vs Mutant: Adversarial LLM Agents for Robust Unit Test Generation — AdverTest](https://arxiv.org/abs/2602.08146) | 2026；arXiv v3 | pure method | 测试 agent 与变异 agent 迭代对抗 | 推理期测试演化；不能仅凭“对抗”归类为参数训练 RL | 摘要、版本说明 |
 | U11 | [Unit Test Case Generation with Transformers and Focal Context — AthenaTest](https://arxiv.org/abs/2009.05617) | 2020/2021；历史前驱 | method + benchmark | Java 预训练、代码—测试监督训练；Methods2Test | 神经测试生成历史、训练数据与上下文；与现代通用生成式 LLM 分层 | 摘要 |
+| U12 | [ASTER: Natural and Multi-language Unit Test Generation with LLMs](https://arxiv.org/abs/2409.03093) | 2024/2025；v3；ICSE-SEIP 2025 接收自述 | system/tool | 静态上下文、mocking、错误修复与覆盖增强；Java/Python | 补入多语言和工业工程落地；naturalness 与缺陷检出分别评价 | 摘要、元数据；v2 正文 §III 预处理片段 |
+| U13 | [HITS: High-coverage LLM-based Unit Test Generation via Method Slicing](https://arxiv.org/abs/2408.11324) | 2024；v1；ASE 2024 接收自述 | pure method | 复杂 Java focal method 切片，逐片生成测试 | 补入上下文结构化与路径分解；切片引导不等于完整形式验证 | 摘要、元数据 |
+| U14 | [Advancing Code Coverage: Incorporating Program Analysis with Large Language Models](https://arxiv.org/abs/2404.04966) | 2024/2025；v2；TOSEM 接收自述 | pure method | TELPA：真实调用用例、跨过程依赖与无效测试反例引导 | 旧题名 Enhancing LLM-based Test Generation for Hard-to-Cover Branches via Program Analysis 合并为同一研究；覆盖目标单列 | 摘要、元数据 |
+| U15 | [Knowledge Matters: Injecting Project and Testing Knowledge into LLM-based Unit Test Generation](https://arxiv.org/abs/2511.14224) | 2025/2026；v3；ICSE 2026 接收自述；关联 DOI 10.1145/3744916.3787769 | pure method | KTester：项目结构/用法静态抽取、测试设计与方法生成分离、测试领域知识 | 补入测试设计知识；执行通过、人工可维护性评价和语义正确性分别提取 | 摘要、元数据 |
+| U16 | [exLong: Generating Exceptional Behavior Tests with Large Language Models](https://arxiv.org/abs/2405.14619) | 2024/2025；v3；ICSE 2025 camera-ready 自述 | pure method | CodeLlama 指令微调；throw 路径、守卫条件、相近非异常测试上下文 | 异常路径及异常 oracle；覆盖 throw 语句不等于正确识别异常前提 | 摘要、元数据 |
+| U17 | [Retrieval-Augmented Test Generation: How Far Are We?](https://arxiv.org/abs/2409.12682) | 2024/2025；v2；ICSE 2026 接收自述 | other（实证） | ML/DL API 测试；官方文档、GitHub issues 与 StackOverflow 检索源对照 | 作者报告 RAG 的覆盖收益与正确性结果不同；发现、上报、确认 bug 分开统计 | 摘要、元数据 |
+| U18 | [Evaluating and Improving ChatGPT for Unit Test Generation](https://mingwei-liu.github.io/assets/pdf/FSE24_chatTester_cameraReady.pdf) | 2024；FSE 作者 camera-ready | pure method | ChatTester：初始测试生成与迭代修订；自动评价及用户研究 | 补入早期核心实证锚点；对 passing tests 的可读性结论不能外推全部生成结果 | 正式正文首页摘要 |
 
 ## 需求、测试设计与验收测试
 
@@ -40,6 +47,8 @@
 | R02 | [Multi-Step Generation of Test Specifications using Large Language Models for System-Level Requirements](https://aclanthology.org/2025.acl-industry.11/) | 2025；ACL Industry | system/tool | 系统需求→中间测试制品→测试规格 | 工业需求分解与人工协作；文本相似度与缺陷检出分开 | 摘要、正式元数据 |
 | R03 | [Acceptance Test Generation with Large Language Models: An Industrial Case Study](https://arxiv.org/abs/2504.07244) | 2025；arXiv/工业案例 | system/tool | user story→Gherkin→Cypress | 设计阶段和脚本落地阶段的上下文权限分别编码 | 摘要；阶段区分使用既有精读记录 |
 | R04 | [APITestGenie: Generating Web API Tests from Requirements and API Specifications with LLMs](https://arxiv.org/abs/2604.02039) | 2026；arXiv | system/tool | 业务需求及 OpenAPI→API 集成脚本 | 需求、接口规格、跨端点场景；与 2024 前身去重，失败定义需精读 | 摘要 |
+| R05 | [Testora: Using Natural Language Intent to Detect Behavioral Regressions](https://arxiv.org/abs/2503.18597) | 2025；v3；ICSE 2026 接收自述 | pure method | PR 源码变更→生成测试→比较前后行为；PR 标题/描述/提交消息判断变更意图 | 预期变更与回归区分；有源码访问，不归类为需求-only | 摘要、元数据 |
+| R06 | [Streamlining Acceptance Test Generation for Mobile Applications Through Large Language Models: An Industrial Case Study](https://arxiv.org/abs/2510.18861) | 2025；v1；ASE 2025 关联正式 DOI 10.1109/ASE63991.2025.00273 | system/tool | AToMIC：JIRA 需求和近期代码变更→Gherkin、Page Objects、可执行移动 UI 测试 | 补入移动验收工业案例；语法、执行与从业者时间评价不等于独立缺陷检出 | 摘要、元数据 |
 
 ## Oracle、后置条件及蜕变关系
 
@@ -51,6 +60,13 @@
 | O04 | [TOGA: A Neural Method for Test Oracle Generation](https://arxiv.org/abs/2109.09262) | 2021/2022；ICSE 2022 | pure method | 神经生成异常和断言 oracle | 历史 oracle 方法与输入生成器组合 | 摘要、元数据 |
 | O05 | [Neural-Based Test Oracle Generation: A Large-scale Evaluation and Lessons Learned](https://arxiv.org/abs/2307.16023) | 2023；关联正式 DOI | other（复制/评价） | 外部、扩展及概念复制 TOGA | 原方法效果与外部复制对照；误报、拒答、缺陷检出分别报告 | 摘要 |
 | O06 | [Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation — CANDOR](https://arxiv.org/abs/2506.02943) | 2025/2026；arXiv v7 | pure method | 多 agent 完整测试生成、panel oracle 共识 | 覆盖、输入生成和 oracle 评审交叉归类；共识可靠性需独立证据 | 摘要、当前版本 |
+| O07 | [TOGLL: Correct and Strong Test Oracle Generation with LLMs](https://arxiv.org/abs/2405.03786) | 2024/2025；v2；ICSE 2025；关联 DOI 10.1109/ICSE55347.2025.00098 | pure method | 代码 LLM 微调与不同提示配置；生成 assertion/exception oracle | 正确性、多样性与强度分别提取；unique bugs 的操作定义待全文复核，不直接当作真实历史 bug | 摘要、元数据 |
+| O08 | [Doc2OracLL: Investigating the Impact of Documentation on LLM-based Test Oracle Generation](https://arxiv.org/abs/2412.09360) | 2024/2025；v2；FSE/PACMSE 关联 DOI 10.1145/3729354 | other（实证） | 比较 Javadoc 各组成部分与其他上下文对 oracle 生成的影响 | 文档作为正确性依据与实现上下文贡献需分开；ground-truth 匹配与语义保证分开 | 摘要、元数据 |
+| O09 | [Tratto: A Neuro-Symbolic Approach to Deriving Axiomatic Test Oracles](https://arxiv.org/abs/2504.04251) | 2025；v2；ISSTA 2025 接收自述 | pure method | 源码及文档→公理式布尔断言；符号模块限定合法 token，微调 transformer 逐 token 决策 | 性质式 oracle 与具体输入输出 oracle 分层；合法语法约束不等于语义证明 | 摘要、元数据 |
+| O10 | [Consistency Meets Verification: Enhancing Test Generation Quality in Large Language Models Without Ground-Truth Solutions](https://arxiv.org/abs/2602.10522) | 2026；arXiv v1；正式场所本轮未独立核实 | pure method | ConVerTest：测试自一致性、代码 CoVe 与双向执行共识筛选 | 无需预先参考实现，但生成并执行候选代码；共识是估计证据而非独立真值 | 摘要、正文 §II–III 共识验证 |
+| O11 | [Toward Automated Validation of Language Model Synthesized Test Cases using Semantic Entropy](https://arxiv.org/abs/2411.08254) | 2024/2026；arXiv v3；正式场所本轮未独立核实 | pure method | VALTEST：语义熵特征、学习测试 valid/invalid 分类器与过滤 | 验证器训练标签和跨数据泛化需精读；概率筛选不提供形式正确性保证 | 摘要、元数据 |
+| O12 | [From Business Requirements to Test Assertions: Evaluating LLM-Generated Oracles on Real Bugs](https://arxiv.org/abs/2607.10277) | 2026；arXiv v1 | other（实证） | 10 个 Defects4J Lang bug 的修复差异→人工需求及 REQ oracle；模型读需求与最小方法结构 | 生成不读源码，但需求/金标准构建依赖修复差异；REQ 一致与 SUT 一致分别编码 | 摘要、正文 §3、§4.1–4.4 |
+| O13 | [Escaping the Self-Repair Trap: Improving Test Oracle Generation via Dual-Context Awareness](https://arxiv.org/abs/2608.05917) | 2026；v1；ASE 2026 接收自述 | pure method | DCAware：结构化静态上下文与选择性动态状态；非迭代 regression-oracle completion | 当前版本被视作预期行为且已有可执行 prefix；修复陷阱结论限定该设置 | 摘要、正文 §1 设置及动机 |
 
 ## API、服务集成与 GUI 动作序列
 
@@ -60,6 +76,9 @@
 | A02 | [SAINT: Service-level Integration Test Generation with Program Analysis and LLM-based Agents](https://arxiv.org/abs/2511.13305) | 2025；arXiv | pure method | 源码静态分析、端点模型、操作依赖图和 agent | 白盒服务场景生成；代码抽取 use case 不是独立需求 | 摘要 |
 | A03 | [Autonomous Large Language Model Agents Enabling Intent-Driven Mobile GUI Testing — DroidAgent](https://arxiv.org/abs/2311.08649) | 2023；arXiv | system/tool | 设置任务、GUI 交互、短长期记忆 | 高层意图与状态探索；任务相关性不等于业务 oracle 正确率 | 摘要 |
 | A04 | [Make LLM a Testing Expert: Bringing Human-like Interaction to Mobile GUI Testing via Functionality-aware Decisions — GPTDroid](https://arxiv.org/abs/2310.15780) | 2023；arXiv/扩展版本 | system/tool | GUI 状态→动作→反馈循环与功能记忆 | 功能探索及动作生成；与早期 2305.09434 按研究家族去重 | 摘要 |
+| A05 | [LlamaRestTest: Effective REST API Testing with Small Language Models](https://arxiv.org/abs/2501.08598) | 2025；v2；FSE 2025 接收自述 | pure method | OpenAPI、服务响应；小模型微调/量化预测参数依赖和输入值 | 参数规则与输入生成，不是完整业务 oracle；内部服务器错误与确认缺陷分开 | 摘要、元数据 |
+| A06 | [Multi-Agent LLM-based Metamorphic Testing for REST APIs](https://arxiv.org/abs/2605.28321) | 2026；v1；COMPSAC 2026 接收自述 | system/tool | ARMeta：OpenAPI→蜕变场景/Given-When-Then→可执行 API 测试 | 补入 API 性质式 oracle；关系合法性与适用前提仍须审查；两应用范围 | 摘要、元数据 |
+| A07 | [Scenario-Guided LLM-based Mobile App GUI Testing](https://arxiv.org/abs/2506.05079) | 2025/2026；v4；TOSEM 接收自述 | system/tool | ScenGen：Observer/Decider/Executor/Supervisor/Recorder 场景驱动动作生成 | 旧题名 LLM-Guided Scenario-based GUI Testing 合并；动作完成判断与业务 oracle 正确性分开 | 当前版本摘要、元数据 |
 
 ## 模糊测试：输入、驱动、生成器和变异器
 
@@ -72,6 +91,9 @@
 | F05 | [Prompt Fuzzing for Fuzz Driver Generation — PromptFuzz](https://arxiv.org/abs/2312.17677) | 2023/2024；CCS 2024 | pure method | coverage-guided prompt mutation→fuzz driver | 驱动程序是高层测试产物，后续输入由 fuzzer 产生 | 作者正式正文摘要 |
 | F06 | [ELFuzz: Efficient Input Generation via LLM-driven Synthesis Over Fuzzer Space](https://www.usenix.org/conference/usenixsecurity25/presentation/chen-chuyang) | 2025；USENIX Security | pure method | 覆盖引导、在 fuzzer 空间演化生成器 | 从生成单个输入到生成可复用输入生成器 | 官方摘要 |
 | F07 | [Bulbasaur: Branch-Guided Online Mutator Generation for Greybox Fuzzing](https://www.usenix.org/conference/usenixsecurity26/presentation/wang-yiyi) | 2026；USENIX Security | pure method | 分支选择、静态/动态上下文→在线定制变异器 | 2026 新进展；复用生成的变异器降低逐输入调用需求 | 官方摘要、正式元数据 |
+| F08 | [Low-Cost and Comprehensive Non-textual Input Fuzzing with LLM-Synthesized Input Generators](https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-kunpeng) | 2025；USENIX Security 官方论文页 | pure method | G2FUZZ：生成/变异 Python 输入生成器产生二进制制品，再由 AFL++ 变异 | 非文本输入与可复用生成器补充；LLM 调用成本和 fuzzer 职责单列 | 官方摘要、BibTeX |
+| F09 | [Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen](https://research.google/pubs/lessons-from-mitigating-false-positives-in-googles-oss-fuzz-gen/) | 2026；Google Research 作者机构页；正式场所未核实 | system/tool | agent fuzz driver；约束生成与现实入口上下文的 crash 验证 | 驱动非法用法引起的假阳性；crash 不直接当作产品缺陷 | 作者机构页摘要、元数据 |
+| F10 | [Scheduzz: Constraint-based Fuzz Driver Generation with Dual Scheduling](https://arxiv.org/abs/2507.18289) | 2025；arXiv v1 | pure method | 库 API 组合约束；生成驱动和 fuzz campaign 双调度 | 库使用合法性、预算调度和误报；未复核具体资源限制配置 | 摘要、元数据 |
 
 ## 模型训练、测试辅助代码生成及交互
 
@@ -89,6 +111,9 @@
 | T10 | [CodeT: Code Generation with Generated Tests](https://arxiv.org/abs/2207.10397) | 2022/2023；arXiv/正式关联版本 | pure method | 生成测试与候选代码，执行一致性排序 | 邻近用途：测试作为代码选择证据；下游 pass@1 不是 oracle 正确率 | 摘要 |
 | T11 | [LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation — TiCoder](https://arxiv.org/abs/2404.10100) | 2024；arXiv/正式关联版本 | system/tool | 用户确认测试，澄清意图，筛选代码 | 人类提供 oracle 证据；与无人参与自动生成分层 | 摘要 |
 | T12 | [Reinforcement Learning from Automatic Feedback for High-Quality Unit Test Generation — RLSQM](https://arxiv.org/abs/2310.02368) | 2023/2025；DeepTest 2025 | pure method | 静态质量/测试异味 reward model+PPO | 学习可维护性而非直接学习语义正确性；与误提交的 2412.14308 去重 | 摘要、版本说明 |
+| T13 | [CAT-LM: Training Language Models on Aligned Code And Tests](https://arxiv.org/abs/2310.01602) | 2023；arXiv v1；正式场所本轮未独立核实 | pure method | Python/Java 对齐代码—测试文件预训练；长上下文及执行/覆盖过滤 | 补入预训练路线；测试补全、生成与模型规模比较条件分开 | 摘要、元数据 |
+| T14 | [Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning](https://arxiv.org/abs/2506.03136) | 2025；v2；NeurIPS 2025 Spotlight 自述 | pure method | CURE：Coder/Tester 执行矩阵与联合 RL；无需 ground-truth code | 正文 §3.3 仍使用 ground-truth unit tests 标记代码正确/错误；不得写成完全无监督训练 | 摘要、正文 §3.3、图3、奖励式3–4 |
+| T15 | [FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation](https://aclanthology.org/2025.findings-emnlp.847/) | 2025；Findings EMNLP 官方论文页 | pure method | 覆盖引导 fuzzing 扩充神经测试生成训练数据 | 动态分析用于训练数据构造；数据量收益与独立 oracle 正确性分开 | 官方摘要、元数据 |
 
 ## 基准与实证评价
 
@@ -99,9 +124,19 @@
 | B03 | [SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents](https://arxiv.org/abs/2406.12952) | 2024/2025；arXiv v3 | pure benchmark | issue→复现测试；修复前失败、修复后通过 | fail-to-pass 支持 issue 区分，完整语义正确性仍需额外证据 | 摘要；评估正文 |
 | B04 | [Benchmarking LLMs for Unit Test Generation from Real-World Functions — ULT/PLT](https://arxiv.org/abs/2508.00408) | 2025；arXiv，页面标注 Under Review | pure benchmark | 复杂真实函数、已泄漏/未泄漏测试对照 | 降低特定污染风险；不能断言消除所有训练污染 | 摘要、元数据 |
 | B05 | [RESTestBench: A Benchmark for Evaluating the Effectiveness of LLM-Generated REST API Test Cases from NL Requirements](https://arxiv.org/abs/2604.25862) | 2026；EASE 接收自述 | pure benchmark | 精确/模糊需求、需求相关变异、SUT 反馈修订 | 3 个 REST 服务；需求变异覆盖仍受错误模型限制 | 正文摘要、反馈结果 |
+| B06 | [How Many Code and Test Cases Are Enough? Evaluating Test Cases Generation from a Binary-Matrix Perspective](https://arxiv.org/abs/2510.08720) | 2025/2026；v3；ICLR 2026 接收自述 | method + benchmark | WrongSelect、代码—测试二值矩阵与竞赛程序 TC-Bench | rank 与区分能力限于有限候选错误池；不是对全部语义错误的覆盖证明；区别同名视频基准 | 当前版本摘要、元数据 |
+| B07 | [MultiFileTest: A Multi-File-Level LLM Unit Test Generation Benchmark and Impact of Error Fixing Mechanisms](https://aclanthology.org/2026.findings-acl.1403/) | 2026；Findings ACL 官方论文页 | pure benchmark | Python/Java/JavaScript 多文件项目；人工/自修复设置 | 仓库上下文与 executability/cascade errors；任务粒度与错误修复干预分开 | 官方摘要、元数据 |
+| B08 | [TOGBench: A Developer-Written Multi-Variant Dataset and Benchmark Suite for Test Oracle Generation](https://github.com/assert-lab/TOGBench) | 2026；作者项目页；AIware 2026 关联 DOI 10.1145/3805760.3814927 | pure benchmark | OE25dev；Java 人工测试单/多/混合/自定义 oracle；回填、编译、执行、PIT | 保留六类 oracle；README 的 False Positive Rate 定义是错误程序仍通过，不能直接等同合法实现误拒 | 作者 README Overview/Features/Outputs/Citation；论文正文待读 |
+| B09 | [UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing](https://arxiv.org/abs/2402.03396) | 2024；arXiv v1；正式场所本轮未独立核实 | method + benchmark | LSP 收集五语言 focal-test pairs；训练测试生成模型 | 训练语料与评价基准分层；代码—测试关联、拆分泄漏和重复待全文审查 | 摘要、元数据 |
 | E01 | [LLM vs. Human Unit Tests: Fault Detection on Real Python Bugs](https://arxiv.org/abs/2606.08588) | 2026；arXiv | other（实证） | 人工与 LLM 测试在历史 bug 和配对基准上的对照 | 用于真实缺陷评价分支；数值结论待全文审计 | 摘要 |
 | E02 | [Evaluating LLM-Based Test Generation Under Software Evolution](https://arxiv.org/abs/2603.23443) | 2026；arXiv | other（实证） | 语义保持与语义改变条件下的测试生成 | 区分变更要求、oracle 适应和回归；不能将旧行为保留一律判错 | 摘要 |
 | E03 | [On the Flakiness of LLM-Generated Tests for Industrial and Open-Source Database Management Systems](https://arxiv.org/abs/2601.08998) | 2026；ICSE SEIP | other（实证） | 数据库测试扩充后的不稳定性与模式传递 | 现有测试上下文可传播 flakiness；领域结果不直接外推全部项目 | 摘要、官方会议页 |
+| E04 | [Measuring the Influence of Incorrect Code on Test Generation](https://arxiv.org/abs/2409.09464) | 2024/2025；arXiv v3，页标注 Under review；正式场所未核实 | other（实证） | 正确/错误代码及自然语言描述条件下测试生成对照 | 错误实现污染 oracle 的直接证据；不把代码条件结果外推严格需求-only | 摘要、元数据 |
+| E05 | [Do Coverage and Mutation Scores of LLM-Generated Test Suites Correlate with Their Effectiveness? (Replicability Study)](https://arxiv.org/abs/2607.22880) | 2026；v1；ISSTA 2026 接收自述；关联 DOI 10.1145/3832093 | other（复制/实证） | 覆盖、变异分数、真实 bug 检出相关性；控制测试规模和代码状态 | 代理指标价值依赖回归/buggy-code 设置；不写成所有覆盖和 mutation 一律无效 | 摘要、正文目录及设置区分；数值表未审计 |
+| E06 | [Evaluating and Mitigating the Misguidance Effect of Buggy Code in LLM-Generated Unit Tests](https://arxiv.org/abs/2607.22883) | 2026；v1；ISSTA 2026 接收自述；关联 DOI 10.1145/3832204 | pure method | 量化 misguided tests；生成 docstring 代替 buggy code 核心提示 | 生成规格仍可能继承代码 bug；不能把从代码生成的 docstring 当作外部独立需求 | 摘要、正文 §2.1–2.2 研究问题和基准 |
+| E07 | [Do LLMs Generate Useful Test Oracles? An Empirical Study with an Unbiased Dataset](https://homes.cs.washington.edu/~mernst/pubs/neurosymbolic-oracles-ase2025.pdf) | 2025；ASE 作者论文 PDF | other（实证） | 时间截断之后的 Java 人工 oracle；模型/提示/上下文条件对照 | 人工原 oracle 匹配和 mutation 是两个代理；标题 unbiased 不等于消除全部污染风险 | 摘要、正文 §I.A 方法及评价定义 |
+| E08 | [Test Wars: A Comparative Study of SBST, Symbolic Execution, and LLM-Based Approaches to Unit Test Generation](https://arxiv.org/abs/2501.10200) | 2025；arXiv v1；正式场所本轮未独立核实 | other（实证） | GitBug Java；EvoSuite、Kex、TestSpark 三路线对照 | 覆盖、mutation 与真实 fault detection 排序可能不同；不能从 mutation 直接推断普遍语义理解 | 摘要、元数据 |
+| E09 | [YATE: The Role of Test Repair in LLM-Based Unit Test Generation](https://arxiv.org/abs/2507.18316) | 2025；arXiv v1 | pure method | 静态规则和 re-prompt 修复 near-miss 测试，结合回归 assertion 修订 | 正文区分语法修复与使断言符合当前输出；后者依赖回归真值假设 | 摘要、正文 §1 修复和回归说明 |
 | G01 | [Large Language Models are Few-shot Testers: Exploring LLM-based General Bug Reproduction — LIBRO](https://arxiv.org/abs/2209.11515) | 2022/2023；arXiv/正式关联版本 | system/tool | 自然语言 bug report→复现测试→后处理排序 | 已知 bug 复现与未知缺陷发现分开；后续 2311.04532 作为研究家族扩展 | 摘要 |
 
 ## 下一轮全文编码字段
@@ -109,3 +144,7 @@
 每篇建立一条 study 记录、多个 variant 记录：正式 DOI/arXiv 版本、家族 ID、类型、任务目标、测试层级、被测系统、语言、生成产物、推理可见源码/需求/测试/日志、训练监督、奖励来源、输入合法性来源、oracle 来源、反馈提供者、是否更改模型参数、停止条件、预算、基准拆分、语义正确性定义、合法实现误拒、真实缺陷检出、mutation 的生成与评价隔离、覆盖、flakiness、人工负担、成本、复现资源、检查到的具体章节。
 
 本轮没有提取所有论文的作者、DOI、逐项模型配置与数值表格；这些字段在正式 SLR 的全文编码阶段补齐。尚未核对的细节用 unknown，而不是推断为没有使用。
+
+## 补充检索材料
+
+新增文献与原大纲的映射、优先证据卡、筛选决定见 [补充检索报告](supplemental-review.md)。新增 35 条引用候选见 [supplemental-references.bib](supplemental-references.bib)，尚未并入主稿正文。完整机器可读表见 [data/papers.csv](data/papers.csv)。
