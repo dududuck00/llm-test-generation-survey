@@ -23,12 +23,12 @@ AI assistance was used for literature organization, synthesis drafting, and figu
 
 ## Anonymous review materials
 
-Anonymous hosting is pending. Before distributing an anonymous snapshot:
+The user-provided anonymous endpoint is [https://anonymous.4open.science/r/llm-test-generation-survey-B437](https://anonymous.4open.science/r/llm-test-generation-survey-B437) and is now included in Data Availability. Before distributing the snapshot:
 
 1. Use a hosting endpoint that does not expose the GitHub account, repository history, or public-repository identity.
 2. Keep the literature register, search notes, bibliography, coding definitions, and the build instructions accessible to reviewers.
 3. Inspect repository links, author metadata, commit history, document metadata, and acknowledgments for identity disclosure.
-4. Replace the draft Data Availability statement with the actual anonymous access URL and an accurate description of the shared materials.
+4. Confirm that the Data Availability URL resolves to the intended snapshot and that its material list remains accurate.
 
 The public repository does not substitute for that anonymous access check.
 

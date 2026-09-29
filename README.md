@@ -47,7 +47,7 @@ The export checks unique IDs and normalized titles, agreement with the combined 
 
 ## Review distribution
 
-This is the public GitHub repository. A separate anonymous review-access endpoint has not yet been configured. Use an anonymized snapshot for double-anonymous submission, and update the manuscript's Data Availability statement with the actual anonymous URL once it exists. Do not use this author-identifying GitHub URL as the review link.
+This is the public GitHub repository. The user-provided [anonymous review repository](https://anonymous.4open.science/r/llm-test-generation-survey-B437) is linked in the manuscript's Data Availability statement. Check snapshot synchronization and identity disclosure before review distribution. Use the anonymous endpoint as the review link.
 
 ## Attribution
 

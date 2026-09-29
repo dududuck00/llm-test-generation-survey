@@ -47,4 +47,4 @@ BibTeX 仍有 21 项出版地、页码等缺失字段提示。已保留真实来
 
 矢量重绘源为 figures/illustrated_vector.py；其他两图由 figures/draw_figures.py 生成。main-figure-concept.png 是早期构图草图，不是正文中的最终图。三个矢量 PDF 保持更新前的文件内容。
 
-调研材料已在用户创建的公开开发仓库发布。匿名审稿访问端点尚未配置；当前 Data Availability 如实说明此状态，未将作者身份链接放入匿名稿件。提交前仍需完成匿名访问配置及完整研究编码验证。
+调研材料已在用户创建的公开开发仓库发布。用户已提供匿名审稿仓库：[https://anonymous.4open.science/r/llm-test-generation-survey-B437](https://anonymous.4open.science/r/llm-test-generation-survey-B437)，链接已加入 Data Availability。提交前仍需检查匿名快照的文件同步和身份信息，并完成研究编码验证。
