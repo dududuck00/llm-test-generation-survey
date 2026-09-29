@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420pt" height="190pt" viewBox="0 0 420 190"><rect width="100%" height="100%" fill="white"/>
+<text x="3" y="11" font-family="Times New Roman,serif" font-size="9" font-weight="bold" fill="#245779" text-anchor="start">WHAT IS OBSERVED</text>
+<text x="183" y="11" font-family="Times New Roman,serif" font-size="9" font-weight="bold" fill="#286C60" text-anchor="start">WHAT THIS SUPPORTS</text>
+<rect x="3" y="23" width="163" height="20" fill="#F1F6FA" stroke="#BEC9CF" stroke-width=".65"/>
+<text x="8" y="36" font-family="Times New Roman,serif" font-size="8.7" font-weight="normal" fill="#243442" text-anchor="start">Build and run in the target environment</text>
+<polyline points="166,33 181,33" fill="none" stroke="#245779" stroke-width=".85"/>
+<polyline points="177.39821159058928,34.73986213644492 181,33 177.39821159058928,31.26013786355508" fill="none" stroke="#245779" stroke-width=".85"/>
+<rect x="183" y="23" width="234" height="20" fill="#F3F7F5" stroke="#BEC9CF" stroke-width=".65"/>
+<text x="189" y="36" font-family="Times New Roman,serif" font-size="9" font-weight="normal" fill="#243442" text-anchor="start">Executability in that environment</text>
+<rect x="3" y="47" width="163" height="20" fill="#F1F6FA" stroke="#BEC9CF" stroke-width=".65"/>
+<text x="8" y="60" font-family="Times New Roman,serif" font-size="8.7" font-weight="normal" fill="#243442" text-anchor="start">Reach a line, branch, or path</text>
+<polyline points="166,57 181,57" fill="none" stroke="#245779" stroke-width=".85"/>
+<polyline points="177.39821159058928,58.73986213644492 181,57 177.39821159058928,55.26013786355508" fill="none" stroke="#245779" stroke-width=".85"/>
+<rect x="183" y="47" width="234" height="20" fill="#F3F7F5" stroke="#BEC9CF" stroke-width=".65"/>
+<text x="189" y="60" font-family="Times New Roman,serif" font-size="9" font-weight="normal" fill="#243442" text-anchor="start">Structural coverage</text>
+<rect x="3" y="71" width="163" height="20" fill="#F1F6FA" stroke="#BEC9CF" stroke-width=".65"/>
+<text x="8" y="84" font-family="Times New Roman,serif" font-size="8.7" font-weight="normal" fill="#243442" text-anchor="start">Pass an executed reference program</text>
+<polyline points="166,81 181,81" fill="none" stroke="#245779" stroke-width=".85"/>
+<polyline points="177.39821159058928,82.73986213644493 181,81 177.39821159058928,79.26013786355507" fill="none" stroke="#245779" stroke-width=".85"/>
+<rect x="183" y="71" width="234" height="20" fill="#F3F7F5" stroke="#BEC9CF" stroke-width=".65"/>
+<text x="189" y="84" font-family="Times New Roman,serif" font-size="9" font-weight="normal" fill="#243442" text-anchor="start">Reference consistency</text>
+<rect x="3" y="95" width="163" height="20" fill="#F1F6FA" stroke="#BEC9CF" stroke-width=".65"/>
+<text x="8" y="108" font-family="Times New Roman,serif" font-size="8.7" font-weight="normal" fill="#243442" text-anchor="start">Reject independent faulty programs</text>
+<polyline points="166,105 181,105" fill="none" stroke="#245779" stroke-width=".85"/>
+<polyline points="177.39821159058928,106.73986213644493 181,105 177.39821159058928,103.26013786355507" fill="none" stroke="#245779" stroke-width=".85"/>
+<rect x="183" y="95" width="234" height="20" fill="#F3F7F5" stroke="#BEC9CF" stroke-width=".65"/>
+<text x="189" y="108" font-family="Times New Roman,serif" font-size="9" font-weight="normal" fill="#243442" text-anchor="start">Fault detection on the chosen pool</text>
+<rect x="3" y="119" width="163" height="20" fill="#F1F6FA" stroke="#BEC9CF" stroke-width=".65"/>
+<text x="8" y="132" font-family="Times New Roman,serif" font-size="8.7" font-weight="normal" fill="#243442" text-anchor="start">Accept alternative legal implementations</text>
+<polyline points="166,129 181,129" fill="none" stroke="#245779" stroke-width=".85"/>
+<polyline points="177.39821159058928,130.7398621364449 181,129 177.39821159058928,127.26013786355507" fill="none" stroke="#245779" stroke-width=".85"/>
+<rect x="183" y="119" width="234" height="20" fill="#F3F7F5" stroke="#BEC9CF" stroke-width=".65"/>
+<text x="189" y="132" font-family="Times New Roman,serif" font-size="9" font-weight="normal" fill="#243442" text-anchor="start">Non-rejection on the chosen pool</text>
+<polyline points="3,153 417,153" fill="none" stroke="#BEC9CF" stroke-width=".85"/>
+<text x="5" y="168" font-family="Times New Roman,serif" font-size="9.5" font-weight="bold" fill="#925036" text-anchor="start">Oracle semantics: judge the assertion against the intended behavior.</text>
+<text x="5" y="182" font-family="Times New Roman,serif" font-size="9" font-weight="normal" fill="#243442" text-anchor="start">Combine complementary evidence; the rows are not a ranking or an implication chain.</text>
+</svg>

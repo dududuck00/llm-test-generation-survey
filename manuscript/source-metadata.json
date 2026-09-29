@@ -1,0 +1,2184 @@
+{
+  "S01": {
+    "source": "https://arxiv.org/abs/2307.07221",
+    "metadata": {
+      "citation_title": [
+        "Software Testing with Large Language Models: Survey, Landscape, and Vision"
+      ],
+      "citation_author": [
+        "Wang, Junjie",
+        "Huang, Yuchao",
+        "Chen, Chunyang",
+        "Liu, Zhe",
+        "Wang, Song",
+        "Wang, Qing"
+      ],
+      "citation_date": [
+        "2023/07/14"
+      ],
+      "citation_online_date": [
+        "2024/03/04"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2307.07221"
+      ],
+      "citation_arxiv_id": [
+        "2307.07221"
+      ]
+    }
+  },
+  "S02": {
+    "source": "https://arxiv.org/abs/2506.15227",
+    "metadata": {
+      "citation_title": [
+        "Large Language Models for Unit Testing: A Systematic Literature Review"
+      ],
+      "citation_author": [
+        "Zhang, Quanjun",
+        "Fang, Chunrong",
+        "Gu, Siqi",
+        "Shang, Ye",
+        "Chen, Zhenyu",
+        "Xiao, Liang"
+      ],
+      "citation_date": [
+        "2025/06/18"
+      ],
+      "citation_online_date": [
+        "2025/06/18"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2506.15227"
+      ],
+      "citation_arxiv_id": [
+        "2506.15227"
+      ]
+    }
+  },
+  "S03": {
+    "source": "https://arxiv.org/abs/2511.21382",
+    "metadata": {
+      "citation_title": [
+        "Large Language Models for Unit Test Generation: Achievements, Challenges, and Opportunities"
+      ],
+      "citation_author": [
+        "Chu, Bei",
+        "Feng, Yang",
+        "Liu, Kui",
+        "Guo, Zhaoqiang",
+        "Zhang, Yichi",
+        "Shi, Hange",
+        "Nan, Zifan",
+        "Xu, Baowen"
+      ],
+      "citation_date": [
+        "2025/11/26"
+      ],
+      "citation_online_date": [
+        "2025/12/30"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2511.21382"
+      ],
+      "citation_arxiv_id": [
+        "2511.21382"
+      ]
+    }
+  },
+  "S04": {
+    "source": "https://arxiv.org/abs/2509.25043",
+    "metadata": {
+      "citation_title": [
+        "Large Language Models for Software Testing: A Research Roadmap"
+      ],
+      "citation_author": [
+        "Augusto, Cristian",
+        "Bertolino, Antonia",
+        "De Angelis, Guglielmo",
+        "Lonetti, Francesca",
+        "Morán, Jesús"
+      ],
+      "citation_date": [
+        "2025/09/29"
+      ],
+      "citation_online_date": [
+        "2025/09/29"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2509.25043"
+      ],
+      "citation_arxiv_id": [
+        "2509.25043"
+      ]
+    }
+  },
+  "S05": {
+    "source": "https://arxiv.org/abs/2505.02015",
+    "metadata": {
+      "citation_title": [
+        "Requirements-Based Test Generation: A Comprehensive Survey"
+      ],
+      "citation_author": [
+        "Yang, Zhenzhen",
+        "Huang, Rubing",
+        "Cui, Chenhui",
+        "Niu, Nan",
+        "Towey, Dave"
+      ],
+      "citation_date": [
+        "2025/05/04"
+      ],
+      "citation_online_date": [
+        "2026/08/14"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2505.02015"
+      ],
+      "citation_arxiv_id": [
+        "2505.02015"
+      ]
+    }
+  },
+  "S06": {
+    "source": "https://arxiv.org/abs/2606.06563",
+    "metadata": {
+      "citation_title": [
+        "AI-Driven Test Case Generation from Natural Language Requirements: A Survey of Techniques and Research Gaps"
+      ],
+      "citation_author": [
+        "Folorunsho, Orimoloye",
+        "Reza, Hassan"
+      ],
+      "citation_date": [
+        "2026/06/04"
+      ],
+      "citation_online_date": [
+        "2026/06/13"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2606.06563"
+      ],
+      "citation_arxiv_id": [
+        "2606.06563"
+      ]
+    }
+  },
+  "S07": {
+    "source": "https://api.crossref.org/works/10.1007/s10586-026-06021-z",
+    "title": [
+      "Test case generation using large language models: a systematic literature review"
+    ],
+    "authors": [
+      {
+        "given": "Murat",
+        "family": "Tasarsu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ahmet Vedat",
+        "family": "Tokmak",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cagatay",
+        "family": "Catal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          30
+        ]
+      ]
+    },
+    "container": [
+      "Cluster Computing"
+    ],
+    "volume": "29",
+    "issue": "4",
+    "pages": null,
+    "article_number": "227",
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  "U01": {
+    "source": "https://arxiv.org/abs/2302.06527",
+    "metadata": {
+      "citation_title": [
+        "An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation"
+      ],
+      "citation_author": [
+        "Schäfer, Max",
+        "Nadi, Sarah",
+        "Eghbali, Aryaz",
+        "Tip, Frank"
+      ],
+      "citation_date": [
+        "2023/02/13"
+      ],
+      "citation_online_date": [
+        "2023/12/11"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2302.06527"
+      ],
+      "citation_arxiv_id": [
+        "2302.06527"
+      ]
+    }
+  },
+  "U02": {
+    "source": "https://arxiv.org/abs/2305.04764",
+    "metadata": {
+      "citation_title": [
+        "ChatUniTest: A Framework for LLM-Based Test Generation"
+      ],
+      "citation_author": [
+        "Chen, Yinghao",
+        "Hu, Zehao",
+        "Zhi, Chen",
+        "Han, Junxiao",
+        "Deng, Shuiguang",
+        "Yin, Jianwei"
+      ],
+      "citation_date": [
+        "2023/05/08"
+      ],
+      "citation_online_date": [
+        "2024/05/07"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2305.04764"
+      ],
+      "citation_arxiv_id": [
+        "2305.04764"
+      ]
+    }
+  },
+  "U03": {
+    "source": "https://arxiv.org/abs/2402.00097",
+    "metadata": {
+      "citation_title": [
+        "Code-Aware Prompting: A study of Coverage Guided Test Generation in Regression Setting using LLM"
+      ],
+      "citation_author": [
+        "Ryan, Gabriel",
+        "Jain, Siddhartha",
+        "Shang, Mingyue",
+        "Wang, Shiqi",
+        "Ma, Xiaofei",
+        "Ramanathan, Murali Krishna",
+        "Ray, Baishakhi"
+      ],
+      "citation_date": [
+        "2024/01/31"
+      ],
+      "citation_online_date": [
+        "2024/04/02"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2402.00097"
+      ],
+      "citation_arxiv_id": [
+        "2402.00097"
+      ]
+    }
+  },
+  "U04": {
+    "source": "https://www.microsoft.com/en-us/research/publication/codamosa-escaping-coverage-plateaus-in-test-generation-with-pre-trained-large-language-models/",
+    "status": "official page previously inspected"
+  },
+  "U05": {
+    "source": "https://api.crossref.org/works/10.1145/3729398",
+    "title": [
+      "CoverUp: Effective High Coverage Test Generation for Python"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1891-2919",
+        "authenticated-orcid": false,
+        "given": "Juan",
+        "family": "Altmayer Pizzorno",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Massachusetts at Amherst, Amherst, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3222-3271",
+        "authenticated-orcid": false,
+        "given": "Emery D.",
+        "family": "Berger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Massachusetts at Amherst, Amherst, USA"
+          },
+          {
+            "name": "Amazon Web Services, Seattle, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          19
+        ]
+      ]
+    },
+    "container": [
+      "Proceedings of the ACM on Software Engineering"
+    ],
+    "volume": "2",
+    "issue": "FSE",
+    "pages": "2897-2919",
+    "article_number": null,
+    "publisher": "Association for Computing Machinery (ACM)"
+  },
+  "U06": {
+    "source": "https://arxiv.org/abs/2308.16557",
+    "metadata": {
+      "citation_title": [
+        "Effective Test Generation Using Pre-trained Large Language Models and Mutation Testing"
+      ],
+      "citation_author": [
+        "Dakhel, Arghavan Moradi",
+        "Nikanjam, Amin",
+        "Majdinasab, Vahid",
+        "Khomh, Foutse",
+        "Desmarais, Michel C."
+      ],
+      "citation_date": [
+        "2023/08/31"
+      ],
+      "citation_online_date": [
+        "2023/08/31"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2308.16557"
+      ],
+      "citation_arxiv_id": [
+        "2308.16557"
+      ]
+    }
+  },
+  "U07": {
+    "source": "https://arxiv.org/abs/2402.09171",
+    "metadata": {
+      "citation_title": [
+        "Automated Unit Test Improvement using Large Language Models at Meta"
+      ],
+      "citation_author": [
+        "Alshahwan, Nadia",
+        "Chheda, Jubin",
+        "Finegenova, Anastasia",
+        "Gokkaya, Beliz",
+        "Harman, Mark",
+        "Harper, Inna",
+        "Marginean, Alexandru",
+        "Sengupta, Shubho",
+        "Wang, Eddy"
+      ],
+      "citation_date": [
+        "2024/02/14"
+      ],
+      "citation_online_date": [
+        "2024/02/14"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2402.09171"
+      ],
+      "citation_arxiv_id": [
+        "2402.09171"
+      ]
+    }
+  },
+  "U08": {
+    "source": "https://arxiv.org/abs/2501.16155",
+    "metadata": {
+      "citation_title": [
+        "CITYWALK: Enhancing LLM-Based C++ Unit Test Generation via Project-Dependency Awareness and Language-Specific Knowledge"
+      ],
+      "citation_author": [
+        "Zhang, Yuwei",
+        "Lu, Qingyuan",
+        "Liu, Kai",
+        "Dou, Wensheng",
+        "Zhu, Jiaxin",
+        "Qian, Li",
+        "Zhang, Chunxi",
+        "Lin, Zheng",
+        "Wei, Jun"
+      ],
+      "citation_date": [
+        "2025/01/27"
+      ],
+      "citation_online_date": [
+        "2025/08/11"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2501.16155"
+      ],
+      "citation_arxiv_id": [
+        "2501.16155"
+      ]
+    }
+  },
+  "U09": {
+    "source": "https://arxiv.org/abs/2607.09101",
+    "metadata": {
+      "citation_title": [
+        "Multi-Agent LLM Collaboration for Unit Test Generation via Human-Testing-Inspired Workflows"
+      ],
+      "citation_author": [
+        "Zhang, Quanjun",
+        "Shang, Ye",
+        "Gu, Siqi",
+        "Zhou, Jianyi",
+        "Fang, Chunrong",
+        "Chen, Zhenyu",
+        "Xiao, Liang"
+      ],
+      "citation_date": [
+        "2026/07/10"
+      ],
+      "citation_online_date": [
+        "2026/07/10"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2607.09101"
+      ],
+      "citation_arxiv_id": [
+        "2607.09101"
+      ]
+    }
+  },
+  "U10": {
+    "source": "https://arxiv.org/abs/2602.08146",
+    "metadata": {
+      "citation_title": [
+        "Test vs Mutant: Adversarial LLM Agents for Robust Unit Test Generation"
+      ],
+      "citation_author": [
+        "Chang, Pengyu",
+        "Fang, Yixiong",
+        "Chen, Silin",
+        "Shi, Yuling",
+        "Shen, Beijun",
+        "Gu, Xiaodong"
+      ],
+      "citation_date": [
+        "2026/02/08"
+      ],
+      "citation_online_date": [
+        "2026/08/31"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2602.08146"
+      ],
+      "citation_arxiv_id": [
+        "2602.08146"
+      ]
+    }
+  },
+  "U11": {
+    "source": "https://arxiv.org/abs/2009.05617",
+    "metadata": {
+      "citation_title": [
+        "Unit Test Case Generation with Transformers and Focal Context"
+      ],
+      "citation_author": [
+        "Tufano, Michele",
+        "Drain, Dawn",
+        "Svyatkovskiy, Alexey",
+        "Deng, Shao Kun",
+        "Sundaresan, Neel"
+      ],
+      "citation_date": [
+        "2020/09/11"
+      ],
+      "citation_online_date": [
+        "2021/05/20"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2009.05617"
+      ],
+      "citation_arxiv_id": [
+        "2009.05617"
+      ]
+    }
+  },
+  "R01": {
+    "source": "https://api.crossref.org/works/10.1109/RE59067.2024.00031",
+    "title": [
+      "Generating Test Scenarios from NL Requirements Using Retrieval-Augmented LLMs: An Industrial Study"
+    ],
+    "authors": [
+      {
+        "given": "Chetan",
+        "family": "Arora",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Monash University,Melbourne,Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tomas",
+        "family": "Herda",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Austrian Post Group IT,Vienna,Austria"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Verena",
+        "family": "Homm",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Austrian Post Group IT,Vienna,Austria"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          24
+        ]
+      ]
+    },
+    "container": [
+      "2024 IEEE 32nd International Requirements Engineering Conference (RE)"
+    ],
+    "volume": null,
+    "issue": null,
+    "pages": "240-251",
+    "article_number": null,
+    "publisher": "IEEE"
+  },
+  "R02": {
+    "source": "https://api.crossref.org/works/10.18653/v1/2025.acl-industry.11",
+    "title": [
+      "Multi-Step Generation of Test Specifications using Large Language Models for System-Level Requirements"
+    ],
+    "authors": [
+      {
+        "given": "Dragan",
+        "family": "Milchevski",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gordon",
+        "family": "Frank",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anna",
+        "family": "Hätty",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bingqing",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaowei",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhe",
+        "family": "Feng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container": [
+      "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 6: Industry Track)"
+    ],
+    "volume": null,
+    "issue": null,
+    "pages": "132-146",
+    "article_number": null,
+    "publisher": "Association for Computational Linguistics"
+  },
+  "R03": {
+    "source": "https://api.crossref.org/works/10.1109/AST66626.2025.00007",
+    "title": [
+      "Acceptance Test Generation with Large Language Models: An Industrial Case Study"
+    ],
+    "authors": [
+      {
+        "given": "Margarida",
+        "family": "Ferreira",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Porto,Critical TechWorks and Faculty of Engineering,Porto,Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luís",
+        "family": "Viegas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Porto,Critical TechWorks and Faculty of Engineering,Porto,Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "João Pascoal",
+        "family": "Faria",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Porto,INESC TEC, Faculty of Engineering,Porto,Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bruno",
+        "family": "Lima",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Porto,LIACC, Faculty of Engineering,Porto,Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          28
+        ]
+      ]
+    },
+    "container": [
+      "2025 IEEE/ACM International Conference on Automation of Software Test (AST)"
+    ],
+    "volume": null,
+    "issue": null,
+    "pages": "1-11",
+    "article_number": null,
+    "publisher": "IEEE"
+  },
+  "R04": {
+    "source": "https://arxiv.org/abs/2604.02039",
+    "metadata": {
+      "citation_title": [
+        "APITestGenie: Generating Web API Tests from Requirements and API Specifications with LLMs"
+      ],
+      "citation_author": [
+        "Pereira, André",
+        "Lima, Bruno",
+        "Faria, João Pascoal"
+      ],
+      "citation_doi": [
+        "10.1145/3793654.3793743"
+      ],
+      "citation_date": [
+        "2026/04/02"
+      ],
+      "citation_online_date": [
+        "2026/04/02"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2604.02039"
+      ],
+      "citation_arxiv_id": [
+        "2604.02039"
+      ]
+    }
+  },
+  "O01": {
+    "source": "https://arxiv.org/abs/2310.01831",
+    "metadata": {
+      "citation_title": [
+        "Can Large Language Models Transform Natural Language Intent into Formal Method Postconditions?"
+      ],
+      "citation_author": [
+        "Endres, Madeline",
+        "Fakhoury, Sarah",
+        "Chakraborty, Saikat",
+        "Lahiri, Shuvendu K."
+      ],
+      "citation_date": [
+        "2023/10/03"
+      ],
+      "citation_online_date": [
+        "2024/04/15"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2310.01831"
+      ],
+      "citation_arxiv_id": [
+        "2310.01831"
+      ]
+    }
+  },
+  "O02": {
+    "source": "https://arxiv.org/abs/2401.17019",
+    "metadata": {
+      "citation_title": [
+        "Towards Generating Executable Metamorphic Relations Using Large Language Models"
+      ],
+      "citation_author": [
+        "Shin, Seung Yeob",
+        "Pastore, Fabrizio",
+        "Bianculli, Domenico",
+        "Baicoianu, Alexandra"
+      ],
+      "citation_date": [
+        "2024/01/30"
+      ],
+      "citation_online_date": [
+        "2024/10/11"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2401.17019"
+      ],
+      "citation_arxiv_id": [
+        "2401.17019"
+      ]
+    }
+  },
+  "O03": {
+    "source": "https://arxiv.org/abs/2510.26423",
+    "metadata": {
+      "citation_title": [
+        "Nexus: Execution-Grounded Multi-Agent Test Oracle Synthesis"
+      ],
+      "citation_author": [
+        "Huang, Dong",
+        "Du, Mingzhe",
+        "Zhang, Jie M.",
+        "Lin, Zheng",
+        "Luo, Meng",
+        "Zhang, Qianru",
+        "Ng, See-Kiong"
+      ],
+      "citation_date": [
+        "2025/10/30"
+      ],
+      "citation_online_date": [
+        "2025/10/30"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2510.26423"
+      ],
+      "citation_arxiv_id": [
+        "2510.26423"
+      ]
+    }
+  },
+  "O04": {
+    "source": "https://api.crossref.org/works/10.1145/3510003.3510141",
+    "title": [
+      "TOGA"
+    ],
+    "authors": [
+      {
+        "given": "Elizabeth",
+        "family": "Dinella",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Pennsylvania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gabriel",
+        "family": "Ryan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Columbia University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Todd",
+        "family": "Mytkowicz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Microsoft Research"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shuvendu K.",
+        "family": "Lahiri",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Microsoft Research"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          21
+        ]
+      ]
+    },
+    "container": [
+      "Proceedings of the 44th International Conference on Software Engineering"
+    ],
+    "volume": null,
+    "issue": null,
+    "pages": "2130-2141",
+    "article_number": null,
+    "publisher": "ACM"
+  },
+  "O05": {
+    "source": "https://arxiv.org/abs/2307.16023",
+    "metadata": {
+      "citation_title": [
+        "Neural-Based Test Oracle Generation: A Large-scale Evaluation and Lessons Learned"
+      ],
+      "citation_author": [
+        "Hossain, Soneya Binta",
+        "Filieri, Antonio",
+        "Dwyer, Matthew B.",
+        "Elbaum, Sebastian",
+        "Visser, Willem"
+      ],
+      "citation_doi": [
+        "10.1145/3611643.3616265"
+      ],
+      "citation_date": [
+        "2023/07/29"
+      ],
+      "citation_online_date": [
+        "2023/08/25"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2307.16023"
+      ],
+      "citation_arxiv_id": [
+        "2307.16023"
+      ]
+    }
+  },
+  "O06": {
+    "source": "https://arxiv.org/abs/2506.02943",
+    "metadata": {
+      "citation_title": [
+        "Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation"
+      ],
+      "citation_author": [
+        "Xu, Qinghua",
+        "Wang, Guancheng",
+        "Briand, Lionel",
+        "Liu, Kui"
+      ],
+      "citation_doi": [
+        "10.1145/3803418"
+      ],
+      "citation_date": [
+        "2025/06/03"
+      ],
+      "citation_online_date": [
+        "2026/03/25"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2506.02943"
+      ],
+      "citation_arxiv_id": [
+        "2506.02943"
+      ]
+    }
+  },
+  "A01": {
+    "source": "https://arxiv.org/abs/2501.08600",
+    "metadata": {
+      "citation_title": [
+        "AutoRestTest: A Tool for Automated REST API Testing Using LLMs and MARL"
+      ],
+      "citation_author": [
+        "Stennett, Tyler",
+        "Kim, Myeongsoo",
+        "Sinha, Saurabh",
+        "Orso, Alessandro"
+      ],
+      "citation_date": [
+        "2025/01/15"
+      ],
+      "citation_online_date": [
+        "2025/03/04"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2501.08600"
+      ],
+      "citation_arxiv_id": [
+        "2501.08600"
+      ]
+    }
+  },
+  "A02": {
+    "source": "https://arxiv.org/abs/2511.13305",
+    "metadata": {
+      "citation_title": [
+        "SAINT: Service-level Integration Test Generation with Program Analysis and LLM-based Agents"
+      ],
+      "citation_author": [
+        "Pan, Rangeet",
+        "Pavuluri, Raju",
+        "Huang, Ruikai",
+        "Krishna, Rahul",
+        "Stennett, Tyler",
+        "Orso, Alessandro",
+        "SInha, Saurabh"
+      ],
+      "citation_date": [
+        "2025/11/17"
+      ],
+      "citation_online_date": [
+        "2026/05/24"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2511.13305"
+      ],
+      "citation_arxiv_id": [
+        "2511.13305"
+      ]
+    }
+  },
+  "A03": {
+    "source": "https://arxiv.org/abs/2311.08649",
+    "metadata": {
+      "citation_title": [
+        "Autonomous Large Language Model Agents Enabling Intent-Driven Mobile GUI Testing"
+      ],
+      "citation_author": [
+        "Yoon, Juyeon",
+        "Feldt, Robert",
+        "Yoo, Shin"
+      ],
+      "citation_date": [
+        "2023/11/15"
+      ],
+      "citation_online_date": [
+        "2023/11/15"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2311.08649"
+      ],
+      "citation_arxiv_id": [
+        "2311.08649"
+      ]
+    }
+  },
+  "A04": {
+    "source": "https://arxiv.org/abs/2310.15780",
+    "metadata": {
+      "citation_title": [
+        "Make LLM a Testing Expert: Bringing Human-like Interaction to Mobile GUI Testing via Functionality-aware Decisions"
+      ],
+      "citation_author": [
+        "Liu, Zhe",
+        "Chen, Chunyang",
+        "Wang, Junjie",
+        "Chen, Mengzhuo",
+        "Wu, Boyu",
+        "Che, Xing",
+        "Wang, Dandan",
+        "Wang, Qing"
+      ],
+      "citation_date": [
+        "2023/10/24"
+      ],
+      "citation_online_date": [
+        "2023/10/24"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2310.15780"
+      ],
+      "citation_arxiv_id": [
+        "2310.15780"
+      ]
+    }
+  },
+  "F01": {
+    "source": "https://arxiv.org/abs/2212.14834",
+    "metadata": {
+      "citation_title": [
+        "Large Language Models are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models"
+      ],
+      "citation_author": [
+        "Deng, Yinlin",
+        "Xia, Chunqiu Steven",
+        "Peng, Haoran",
+        "Yang, Chenyuan",
+        "Zhang, Lingming"
+      ],
+      "citation_date": [
+        "2022/12/30"
+      ],
+      "citation_online_date": [
+        "2023/03/07"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2212.14834"
+      ],
+      "citation_arxiv_id": [
+        "2212.14834"
+      ]
+    }
+  },
+  "F02": {
+    "source": "https://arxiv.org/abs/2304.02014",
+    "metadata": {
+      "citation_title": [
+        "Large Language Models are Edge-Case Fuzzers: Testing Deep Learning Libraries via FuzzGPT"
+      ],
+      "citation_author": [
+        "Deng, Yinlin",
+        "Xia, Chunqiu Steven",
+        "Yang, Chenyuan",
+        "Zhang, Shizhuo Dylan",
+        "Yang, Shujing",
+        "Zhang, Lingming"
+      ],
+      "citation_date": [
+        "2023/04/04"
+      ],
+      "citation_online_date": [
+        "2023/04/04"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2304.02014"
+      ],
+      "citation_arxiv_id": [
+        "2304.02014"
+      ]
+    }
+  },
+  "F03": {
+    "source": "https://arxiv.org/abs/2308.04748",
+    "metadata": {
+      "citation_title": [
+        "Fuzz4All: Universal Fuzzing with Large Language Models"
+      ],
+      "citation_author": [
+        "Xia, Chunqiu Steven",
+        "Paltenghi, Matteo",
+        "Tian, Jia Le",
+        "Pradel, Michael",
+        "Zhang, Lingming"
+      ],
+      "citation_doi": [
+        "10.1145/3597503.3639121"
+      ],
+      "citation_date": [
+        "2023/08/09"
+      ],
+      "citation_online_date": [
+        "2024/12/09"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2308.04748"
+      ],
+      "citation_arxiv_id": [
+        "2308.04748"
+      ]
+    }
+  },
+  "F04": {
+    "source": "https://api.crossref.org/works/10.14722/ndss.2024.24556",
+    "title": [
+      "Large Language Model guided Protocol Fuzzing"
+    ],
+    "authors": [
+      {
+        "given": "Ruijie",
+        "family": "Meng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Martin",
+        "family": "Mirchev",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marcel",
+        "family": "Böhme",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Abhik",
+        "family": "Roychoudhury",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container": [
+      "Proceedings 2024 Network and Distributed System Security Symposium"
+    ],
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null,
+    "publisher": "Internet Society"
+  },
+  "F05": {
+    "source": "https://api.crossref.org/works/10.1145/3658644.3670396",
+    "title": [
+      "Prompt Fuzzing for Fuzz Driver Generation"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-6766-6271",
+        "authenticated-orcid": false,
+        "given": "Yunlong",
+        "family": "Lyu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tencent Security Big Data Lab, Shanghai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-3436-3205",
+        "authenticated-orcid": false,
+        "given": "Yuxuan",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tencent Security Big Data Lab, Shanghai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-7482-1359",
+        "authenticated-orcid": false,
+        "given": "Peng",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tencent Security Big Data Lab, Shanghai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4072-0710",
+        "authenticated-orcid": false,
+        "given": "Hao",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California, Davis, Davis, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          2
+        ]
+      ]
+    },
+    "container": [
+      "Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security"
+    ],
+    "volume": null,
+    "issue": null,
+    "pages": "3793-3807",
+    "article_number": null,
+    "publisher": "ACM"
+  },
+  "F06": {
+    "source": "https://www.usenix.org/conference/usenixsecurity25/presentation/chen-chuyang",
+    "status": "official page previously inspected"
+  },
+  "F07": {
+    "source": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-yiyi",
+    "status": "official page previously inspected"
+  },
+  "T01": {
+    "source": "https://arxiv.org/abs/2401.07576",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works/10.1016/j.jss.2025.112381"
+  },
+  "T02": {
+    "source": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/efb02f96766a3b599c76852abf4d42dd-Abstract-Conference.html",
+    "status": "official page previously inspected"
+  },
+  "T03": {
+    "source": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/eed25c037bc08afcbefab6f7a6b700e0-Abstract-Conference.html",
+    "status": "official page previously inspected"
+  },
+  "T04": {
+    "source": "https://arxiv.org/abs/2502.14948",
+    "metadata": {
+      "citation_title": [
+        "Learning to Solve and Verify: A Self-Play Framework for Code and Test Generation"
+      ],
+      "citation_author": [
+        "Lin, Zi",
+        "Shen, Sheng",
+        "Kulikov, Ilia",
+        "Shang, Jingbo",
+        "Weston, Jason",
+        "Nie, Yixin"
+      ],
+      "citation_date": [
+        "2025/02/20"
+      ],
+      "citation_online_date": [
+        "2026/03/03"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2502.14948"
+      ],
+      "citation_arxiv_id": [
+        "2502.14948"
+      ]
+    }
+  },
+  "T05": {
+    "source": "https://arxiv.org/abs/2502.01619",
+    "metadata": {
+      "citation_title": [
+        "Learning to Generate Unit Tests for Automated Debugging"
+      ],
+      "citation_author": [
+        "Prasad, Archiki",
+        "Stengel-Eskin, Elias",
+        "Chen, Justin Chih-Yao",
+        "Khan, Zaid",
+        "Bansal, Mohit"
+      ],
+      "citation_date": [
+        "2025/02/03"
+      ],
+      "citation_online_date": [
+        "2025/08/21"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2502.01619"
+      ],
+      "citation_arxiv_id": [
+        "2502.01619"
+      ]
+    }
+  },
+  "T06": {
+    "source": "https://api.crossref.org/works/10.18653/v1/2025.acl-long.343",
+    "title": [
+      "Dynamic Scaling of Unit Tests for Code Reward Modeling"
+    ],
+    "authors": [
+      {
+        "given": "Zeyao",
+        "family": "Ma",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaokang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jing",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jifan",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sijia",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jie",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container": [
+      "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+    ],
+    "volume": null,
+    "issue": null,
+    "pages": "6917-6935",
+    "article_number": null,
+    "publisher": "Association for Computational Linguistics"
+  },
+  "T07": {
+    "source": "https://arxiv.org/abs/2609.03955",
+    "metadata": {
+      "citation_title": [
+        "Two-Stage Reinforcement Learning for Sound and Adversarial Test Generation in Code LLMs"
+      ],
+      "citation_author": [
+        "Xu, Jiacheng",
+        "Zhang, Wentao",
+        "Lyu, Zhiyi",
+        "Zhang, Fuxiang",
+        "Wang, Chaojie",
+        "Liu, Yang",
+        "An, Bo"
+      ],
+      "citation_date": [
+        "2026/09/03"
+      ],
+      "citation_online_date": [
+        "2026/09/03"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2609.03955"
+      ],
+      "citation_arxiv_id": [
+        "2609.03955"
+      ]
+    }
+  },
+  "T08": {
+    "source": "https://arxiv.org/abs/2506.11081",
+    "metadata": {
+      "citation_title": [
+        "SAGE:Specification-Aware Grammar Extraction for Automated Test Case Generation with LLMs"
+      ],
+      "citation_author": [
+        "Aditi",
+        "Park, Hyunwoo",
+        "Sung, Sicheol",
+        "Han, Yo-Sub",
+        "Ko, Sang-Ki"
+      ],
+      "citation_date": [
+        "2025/06/04"
+      ],
+      "citation_online_date": [
+        "2025/06/04"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2506.11081"
+      ],
+      "citation_arxiv_id": [
+        "2506.11081"
+      ]
+    }
+  },
+  "T09": {
+    "source": "https://api.crossref.org/works/10.24963/ijcai.2025/861",
+    "title": [
+      "LogiCase: Effective Test Case Generation from Logical Description in Competitive Programming"
+    ],
+    "authors": [
+      {
+        "given": "Sicheol",
+        "family": "Sung",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Yonsei University"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Aditi",
+        "family": "Aditi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Seoul"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Dogyu",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Kangwon National University"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yo-Sub",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Yonsei University"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Sang-Ki",
+        "family": "Ko",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Seoul"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "container": [
+      "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence"
+    ],
+    "volume": null,
+    "issue": null,
+    "pages": "7742-7750",
+    "article_number": null,
+    "publisher": "International Joint Conferences on Artificial Intelligence Organization"
+  },
+  "T10": {
+    "source": "https://arxiv.org/abs/2207.10397",
+    "metadata": {
+      "citation_title": [
+        "CodeT: Code Generation with Generated Tests"
+      ],
+      "citation_author": [
+        "Chen, Bei",
+        "Zhang, Fengji",
+        "Nguyen, Anh",
+        "Zan, Daoguang",
+        "Lin, Zeqi",
+        "Lou, Jian-Guang",
+        "Chen, Weizhu"
+      ],
+      "citation_date": [
+        "2022/07/21"
+      ],
+      "citation_online_date": [
+        "2022/11/23"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2207.10397"
+      ],
+      "citation_arxiv_id": [
+        "2207.10397"
+      ]
+    }
+  },
+  "T11": {
+    "source": "https://arxiv.org/abs/2404.10100",
+    "metadata": {
+      "citation_title": [
+        "LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation"
+      ],
+      "citation_author": [
+        "Fakhoury, Sarah",
+        "Naik, Aaditya",
+        "Sakkas, Georgios",
+        "Chakraborty, Saikat",
+        "Lahiri, Shuvendu K."
+      ],
+      "citation_doi": [
+        "10.1109/TSE.2024.3428972"
+      ],
+      "citation_date": [
+        "2024/04/15"
+      ],
+      "citation_online_date": [
+        "2024/10/02"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2404.10100"
+      ],
+      "citation_arxiv_id": [
+        "2404.10100"
+      ]
+    }
+  },
+  "T12": {
+    "source": "https://arxiv.org/abs/2310.02368",
+    "metadata": {
+      "citation_title": [
+        "Reinforcement Learning from Automatic Feedback for High-Quality Unit Test Generation"
+      ],
+      "citation_author": [
+        "Steenhoek, Benjamin",
+        "Tufano, Michele",
+        "Sundaresan, Neel",
+        "Svyatkovskiy, Alexey"
+      ],
+      "citation_date": [
+        "2023/10/03"
+      ],
+      "citation_online_date": [
+        "2025/01/06"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2310.02368"
+      ],
+      "citation_arxiv_id": [
+        "2310.02368"
+      ]
+    }
+  },
+  "B01": {
+    "source": "https://arxiv.org/abs/2410.00752",
+    "metadata": {
+      "citation_title": [
+        "TestGenEval: A Real World Unit Test Generation and Test Completion Benchmark"
+      ],
+      "citation_author": [
+        "Jain, Kush",
+        "Synnaeve, Gabriel",
+        "Rozière, Baptiste"
+      ],
+      "citation_date": [
+        "2024/10/01"
+      ],
+      "citation_online_date": [
+        "2025/03/18"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2410.00752"
+      ],
+      "citation_arxiv_id": [
+        "2410.00752"
+      ]
+    }
+  },
+  "B02": {
+    "source": "https://api.crossref.org/works/10.18653/v1/2025.findings-naacl.197",
+    "title": [
+      "TESTEVAL: Benchmarking Large Language Models for Test Case Generation"
+    ],
+    "authors": [
+      {
+        "given": "Wenhan",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chenyuan",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhijie",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuheng",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhaoyang",
+        "family": "Chu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Da",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lingming",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "An Ran",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lei",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container": [
+      "Findings of the Association for Computational Linguistics: NAACL 2025"
+    ],
+    "volume": null,
+    "issue": null,
+    "pages": "3547-3562",
+    "article_number": null,
+    "publisher": "Association for Computational Linguistics"
+  },
+  "B03": {
+    "source": "https://arxiv.org/abs/2406.12952",
+    "metadata": {
+      "citation_title": [
+        "SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents"
+      ],
+      "citation_author": [
+        "Mündler, Niels",
+        "Müller, Mark Niklas",
+        "He, Jingxuan",
+        "Vechev, Martin"
+      ],
+      "citation_date": [
+        "2024/06/18"
+      ],
+      "citation_online_date": [
+        "2025/02/07"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2406.12952"
+      ],
+      "citation_arxiv_id": [
+        "2406.12952"
+      ]
+    }
+  },
+  "B04": {
+    "source": "https://arxiv.org/abs/2508.00408",
+    "metadata": {
+      "citation_title": [
+        "Benchmarking LLMs for Unit Test Generation from Real-World Functions"
+      ],
+      "citation_author": [
+        "Huang, Dong",
+        "Zhang, Jie M.",
+        "Harman, Mark",
+        "Zhang, Qianru",
+        "Du, Mingzhe",
+        "Ng, See-Kiong"
+      ],
+      "citation_date": [
+        "2025/08/01"
+      ],
+      "citation_online_date": [
+        "2025/08/01"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2508.00408"
+      ],
+      "citation_arxiv_id": [
+        "2508.00408"
+      ]
+    }
+  },
+  "B05": {
+    "source": "https://arxiv.org/abs/2604.25862",
+    "metadata": {
+      "citation_title": [
+        "RESTestBench: A Benchmark for Evaluating the Effectiveness of LLM-Generated REST API Test Cases from NL Requirements"
+      ],
+      "citation_author": [
+        "Kogler, Leon",
+        "Hangler, Stefan",
+        "Ehrhart, Maximilian",
+        "Dornauer, Benedikt",
+        "Wuersching, Roland",
+        "Schrammel, Peter"
+      ],
+      "citation_date": [
+        "2026/04/28"
+      ],
+      "citation_online_date": [
+        "2026/04/28"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2604.25862"
+      ],
+      "citation_arxiv_id": [
+        "2604.25862"
+      ]
+    }
+  },
+  "E01": {
+    "source": "https://arxiv.org/abs/2606.08588",
+    "metadata": {
+      "citation_title": [
+        "LLM vs. Human Unit Tests: Fault Detection on Real Python Bugs"
+      ],
+      "citation_author": [
+        "Vathana, Phouvadeth",
+        "Bhatt, Prapti",
+        "Patel, Rishi",
+        "Eisty, Nasir U."
+      ],
+      "citation_date": [
+        "2026/06/07"
+      ],
+      "citation_online_date": [
+        "2026/06/07"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2606.08588"
+      ],
+      "citation_arxiv_id": [
+        "2606.08588"
+      ]
+    }
+  },
+  "E02": {
+    "source": "https://arxiv.org/abs/2603.23443",
+    "metadata": {
+      "citation_title": [
+        "Evaluating LLM-Based Test Generation Under Software Evolution"
+      ],
+      "citation_author": [
+        "Haroon, Sabaat",
+        "Khan, Mohammad Taha",
+        "Gulzar, Muhammad Ali"
+      ],
+      "citation_date": [
+        "2026/03/24"
+      ],
+      "citation_online_date": [
+        "2026/03/24"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2603.23443"
+      ],
+      "citation_arxiv_id": [
+        "2603.23443"
+      ]
+    }
+  },
+  "E03": {
+    "source": "https://arxiv.org/abs/2601.08998",
+    "metadata": {
+      "citation_title": [
+        "On the Flakiness of LLM-Generated Tests for Industrial and Open-Source Database Management Systems"
+      ],
+      "citation_author": [
+        "Berndt, Alexander",
+        "Bach, Thomas",
+        "Gemulla, Rainer",
+        "Kessel, Marcus",
+        "Baltes, Sebastian"
+      ],
+      "citation_date": [
+        "2026/01/13"
+      ],
+      "citation_online_date": [
+        "2026/01/13"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2601.08998"
+      ],
+      "citation_arxiv_id": [
+        "2601.08998"
+      ]
+    }
+  },
+  "G01": {
+    "source": "https://arxiv.org/abs/2209.11515",
+    "metadata": {
+      "citation_title": [
+        "Large Language Models are Few-shot Testers: Exploring LLM-based General Bug Reproduction"
+      ],
+      "citation_author": [
+        "Kang, Sungmin",
+        "Yoon, Juyeon",
+        "Yoo, Shin"
+      ],
+      "citation_date": [
+        "2022/09/23"
+      ],
+      "citation_online_date": [
+        "2023/07/25"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2209.11515"
+      ],
+      "citation_arxiv_id": [
+        "2209.11515"
+      ]
+    }
+  }
+}

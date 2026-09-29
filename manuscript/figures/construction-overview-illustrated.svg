@@ -1,0 +1,346 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000pt" height="625pt" viewBox="0 0 1000 625"><rect width="100%" height="100%" fill="white"/>
+<rect x="8" y="12" width="224" height="487" rx="5" fill="white" stroke="#253E60" stroke-width=".85"/>
+<rect x="242" y="12" width="477" height="487" rx="5" fill="white" stroke="#207E88" stroke-width=".85"/>
+<rect x="736" y="12" width="256" height="487" rx="5" fill="white" stroke="#A45232" stroke-width=".85"/>
+<text x="18" y="35" font-family="Times New Roman,serif" font-size="21.84" font-weight="bold" fill="#253E60" text-anchor="start">Information sources</text>
+<text x="252" y="35" font-family="Times New Roman,serif" font-size="21.84" font-weight="bold" fill="#207E88" text-anchor="start">Test construction</text>
+<text x="746" y="35" font-family="Times New Roman,serif" font-size="21.84" font-weight="bold" fill="#A45232" text-anchor="start">Quality evidence</text>
+<rect x="46" y="49" width="149" height="27" rx="2" fill="#EDF4FB" stroke="#253E60" stroke-width=".85"/>
+<text x="120.5" y="67" font-family="Times New Roman,serif" font-size="13.440000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">Requirements</text>
+<rect x="46" y="84" width="149" height="27" rx="2" fill="#FCF1EB" stroke="#253E60" stroke-width=".85"/>
+<text x="120.5" y="102" font-family="Times New Roman,serif" font-size="13.440000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">Contracts</text>
+<rect x="46" y="119" width="149" height="27" rx="2" fill="#FCF1EB" stroke="#253E60" stroke-width=".85"/>
+<text x="120.5" y="137" font-family="Times New Roman,serif" font-size="13.440000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">Human judgments</text>
+<polyline points="73.10067372943577,178.0496045501138 41.761742054384754,196.444194881122" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="43.987262025602625,193.1204829715681 41.761742054384754,196.444194881122 45.74870043168214,196.12145210785172" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="79.55623984301981,181.9876828256433 78.61017021584775,199.01693611474047" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="77.07277812631041,195.32418300046 78.61017021584775,199.01693611474047 80.54714485287745,195.51720337415819" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="86.70398467765989,178.36538537149946 115.45801723763263,197.0889414570631" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="111.49032935916703,196.58154329084928 115.45801723763263,197.0889414570631 113.38912153888265,193.66554101485747" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="41.83771945826052,202.60316988918964 67.22313574489178,207.79564140236423" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="63.34574803370863,208.7784254769024 67.22313574489178,207.79564140236423 64.04307168083105,205.36928764652615" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="115.12349993771275,203.40026667773995 88.83018758564498,208.07463331810757" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="92.07183954283794,205.73119725360164 88.83018758564498,208.07463331810757 92.68090728621925,209.15720331012156" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="70.46227270092216,216.57135200432427 45.78395456917006,238.08578319610817" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="47.355559797324254,234.40746061552358 45.78395456917006,238.08578319610817 49.6422091048393,237.03038188002614" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="85.75562003711192,216.31271398369574 114.01994196659926,239.31855741467382" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="110.12820652700908,238.39422237355626 114.01994196659926,239.31855741467382 112.32485693469681,235.69548044411133" fill="none" stroke="#253E60" stroke-width=".85"/>
+<circle cx="80" cy="174" r="8" fill="#D9E6F2" stroke="#253E60" stroke-width=".9"/>
+<circle cx="34" cy="201" r="8" fill="#D9E6F2" stroke="#253E60" stroke-width=".9"/>
+<circle cx="78" cy="210" r="10" fill="#74BDC5" stroke="#253E60" stroke-width=".9"/>
+<circle cx="123" cy="202" r="8" fill="#D9E6F2" stroke="#253E60" stroke-width=".9"/>
+<circle cx="39" cy="244" r="8" fill="#D9E6F2" stroke="#253E60" stroke-width=".9"/>
+<circle cx="121" cy="245" r="8" fill="#D9E6F2" stroke="#253E60" stroke-width=".9"/>
+<text x="80" y="162" font-family="Times New Roman,serif" font-size="10.98" font-weight="normal" fill="#253E60" text-anchor="middle">utils.py</text>
+<text x="35" y="222" font-family="Times New Roman,serif" font-size="10.98" font-weight="normal" fill="#253E60" text-anchor="middle">core.py</text>
+<text x="79" y="232" font-family="Times New Roman,serif" font-size="10.98" font-weight="normal" fill="#253E60" text-anchor="middle">model.py</text>
+<text x="124" y="222" font-family="Times New Roman,serif" font-size="10.98" font-weight="normal" fill="#253E60" text-anchor="middle">data.py</text>
+<text x="38" y="262" font-family="Times New Roman,serif" font-size="10.98" font-weight="normal" fill="#253E60" text-anchor="middle">render.py</text>
+<text x="124" y="264" font-family="Times New Roman,serif" font-size="10.98" font-weight="normal" fill="#253E60" text-anchor="middle">test_utils.py</text>
+<polygon points="147,157 210,157 219,166 219,249 147,249 147,157" fill="#EDF4FB" stroke="#253E60" stroke-width=".85"/>
+<polyline points="210,157 210,166 219,166" fill="none" stroke="#253E60" stroke-width=".85"/>
+<text x="154" y="179" font-family="Consolas,monospace" font-size="10.03" fill="#253E60">def</text>
+<text x="154" y="192" font-family="Consolas,monospace" font-size="10.03" fill="#253E60">process(x):</text>
+<text x="154" y="205" font-family="Consolas,monospace" font-size="10.03" fill="#253E60">  ...</text>
+<text x="154" y="218" font-family="Consolas,monospace" font-size="10.03" fill="#253E60"></text>
+<text x="154" y="231" font-family="Consolas,monospace" font-size="10.03" fill="#253E60">  ...</text>
+<text x="120" y="278" font-family="Times New Roman,serif" font-size="13.440000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">Code / dependencies</text>
+<polygon points="22,292 115,292 124,301 124,366 22,366 22,292" fill="#EDF4FB" stroke="#253E60" stroke-width=".85"/>
+<polyline points="115,292 115,301 124,301" fill="none" stroke="#253E60" stroke-width=".85"/>
+<text x="29" y="310" font-family="Consolas,monospace" font-size="9.558" fill="#253E60">def test_sort():</text>
+<text x="29" y="323" font-family="Consolas,monospace" font-size="9.558" fill="#253E60">  ...</text>
+<text x="29" y="336" font-family="Consolas,monospace" font-size="9.558" fill="#253E60">def test_edge():</text>
+<text x="29" y="349" font-family="Consolas,monospace" font-size="9.558" fill="#253E60">  ...</text>
+<rect x="137" y="293" width="84" height="70" rx="0" fill="white" stroke="#253E60" stroke-width=".85" stroke-dasharray="4 3"/>
+<text x="144" y="308" font-family="Consolas,monospace" font-size="9.203999999999999" fill="#253E60">&gt; test_sort</text>
+<text x="144" y="319" font-family="Consolas,monospace" font-size="9.203999999999999" fill="#253E60">&gt; ...</text>
+<text x="144" y="330" font-family="Consolas,monospace" font-size="9.203999999999999" fill="#253E60">&gt; x = [3,1,2]</text>
+<text x="144" y="341" font-family="Consolas,monospace" font-size="9.203999999999999" fill="#253E60">&gt; y = [1,2,3]</text>
+<text x="144" y="352" font-family="Consolas,monospace" font-size="9.203999999999999" fill="#253E60">&gt; assert ...</text>
+<text x="22" y="383" font-family="Times New Roman,serif" font-size="12.88" font-weight="normal" fill="#253E60" text-anchor="start">Existing tests / traces</text>
+<text x="156" y="383" font-family="Times New Roman,serif" font-size="11.760000000000002" font-weight="normal" fill="#253E60" text-anchor="start">trace.log</text>
+<rect x="17" y="395" width="206" height="89" rx="3" fill="white" stroke="#253E60" stroke-width=".85" stroke-dasharray="4 3"/>
+<rect x="22" y="401" width="86" height="60" rx="0" fill="white" stroke="#207E88" stroke-width=".85"/>
+<rect x="22" y="401" width="86" height="20" rx="0" fill="#EDF4FB" stroke="#207E88" stroke-width=".85"/>
+<text x="65" y="415" font-family="Times New Roman,serif" font-size="12.32" font-weight="normal" fill="#207E88" text-anchor="middle">Reference</text>
+<text x="28" y="433" font-family="Consolas,monospace" font-size="8.613999999999999" fill="#253E60">def sort(x):</text>
+<text x="28" y="444" font-family="Consolas,monospace" font-size="8.613999999999999" fill="#253E60">  return (</text>
+<text x="28" y="455" font-family="Consolas,monospace" font-size="8.613999999999999" fill="#253E60">    sorted(x))</text>
+<rect x="131" y="401" width="86" height="60" rx="0" fill="white" stroke="#A45232" stroke-width=".85"/>
+<rect x="131" y="401" width="86" height="20" rx="0" fill="#FCF1EB" stroke="#A45232" stroke-width=".85"/>
+<text x="174" y="415" font-family="Times New Roman,serif" font-size="12.32" font-weight="normal" fill="#A45232" text-anchor="middle">Candidate</text>
+<text x="137" y="433" font-family="Consolas,monospace" font-size="8.613999999999999" fill="#253E60">def sort(x):</text>
+<text x="137" y="444" font-family="Consolas,monospace" font-size="8.613999999999999" fill="#253E60">  ...</text>
+<text x="120" y="477" font-family="Times New Roman,serif" font-size="11.956000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">Reference agreement is conditional</text>
+<text x="480" y="54" font-family="Times New Roman,serif" font-size="13.440000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">Method families (alternative or combinable)</text>
+<polyline points="256,70 256,61 705,61 705,70" fill="none" stroke="#207E88" stroke-width=".85"/>
+<rect x="264" y="73" width="133" height="28" rx="4" fill="#EDF4FB" stroke="#253E60" stroke-width=".85"/>
+<text x="330.5" y="92" font-family="Times New Roman,serif" font-size="12.768000000000002" font-weight="normal" fill="#253E60" text-anchor="middle">Prompting + retrieval</text>
+<rect x="413" y="73" width="147" height="28" rx="4" fill="#EDF7F8" stroke="#207E88" stroke-width=".85"/>
+<text x="486.5" y="92" font-family="Times New Roman,serif" font-size="12.768000000000002" font-weight="normal" fill="#253E60" text-anchor="middle">Program analysis + search</text>
+<rect x="575" y="73" width="123" height="28" rx="4" fill="#F3EFF9" stroke="#75619C" stroke-width=".85"/>
+<text x="636.5" y="92" font-family="Times New Roman,serif" font-size="12.768000000000002" font-weight="normal" fill="#253E60" text-anchor="middle">Agent orchestration</text>
+<path d="M319,101 C319,120 339,126 350,142" fill="none" stroke="#253E60" stroke-width=".95"/>
+<polyline points="349.12,140.72 350,142" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="346.5257637093706,140.01765739669614 350,142 349.393202394886,138.0462933004043" fill="none" stroke="#253E60" stroke-width=".85"/>
+<path d="M486,101 C486,120 467,126 465,142" fill="none" stroke="#207E88" stroke-width=".95"/>
+<polyline points="465.16,140.72 465,142" fill="none" stroke="#207E88" stroke-width=".85"/>
+<polyline points="463.72032016288176,138.21022170642226 465,142 467.1731735759339,138.64182838305385" fill="none" stroke="#207E88" stroke-width=".85"/>
+<path d="M641,101 C641,124 614,132 595,149" fill="none" stroke="#75619C" stroke-width=".95"/>
+<polyline points="596.52,147.64 595,149" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="596.524070396501,145.30172885979013 595,149 598.8443326540364,147.89496314762368" fill="none" stroke="#75619C" stroke-width=".85"/>
+<circle cx="366" cy="176" r="32" fill="#EDF4FB" stroke="#253E60" stroke-width=".9"/>
+<text x="366" y="194" font-family="Times New Roman,serif" font-size="13.440000000000001" font-weight="bold" fill="#253E60" text-anchor="middle">Plan</text>
+<circle cx="469" cy="176" r="32" fill="#EDF7F8" stroke="#207E88" stroke-width=".9"/>
+<text x="469" y="194" font-family="Times New Roman,serif" font-size="13.440000000000001" font-weight="bold" fill="#207E88" text-anchor="middle">Generate</text>
+<circle cx="572" cy="176" r="32" fill="#F3EFF9" stroke="#75619C" stroke-width=".9"/>
+<text x="572" y="194" font-family="Times New Roman,serif" font-size="13.440000000000001" font-weight="bold" fill="#75619C" text-anchor="middle">Check</text>
+<polygon points="358,158 365,158 374,167 374,178 358,178 358,158" fill="#EDF4FB" stroke="#253E60" stroke-width=".85"/>
+<polyline points="365,158 365,167 374,167" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="361,164 371,164" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="361,168 371,168" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="361,172 371,172" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="479.0,168.0 480.76942336483876,170.34108386419354 480.08655439013546,172.59220118838107 477.31469612302544,173.55570233019603 476.0710678118655,175.07106781186548 475.66684279623524,177.97763534763055 473.59220118838107,179.08655439013543 470.9509032201613,177.8078528040323 469.0,178.0 466.65891613580646,179.76942336483876 464.40779881161893,179.08655439013543 463.444297669804,176.31469612302544 461.9289321881345,175.07106781186548 459.02236465236945,174.66684279623522 457.91344560986454,172.59220118838107 459.1921471959677,169.95090322016128 459.0,168.0 457.23057663516124,165.65891613580646 457.91344560986454,163.40779881161893 460.68530387697456,162.44429766980397 461.9289321881345,160.92893218813452 462.33315720376476,158.02236465236945 464.40779881161893,156.91344560986457 467.0490967798387,158.1921471959677 469.0,158.0 471.34108386419354,156.23057663516124 473.59220118838107,156.91344560986457 474.555702330196,159.68530387697456 476.0710678118655,160.92893218813452 478.97763534763055,161.33315720376478 480.08655439013546,163.4077988116189 478.8078528040323,166.04909677983872 479.0,168.0" fill="none" stroke="#207E88" stroke-width=".85"/>
+<circle cx="469" cy="168" r="5" fill="white" stroke="#207E88" stroke-width=".9"/>
+<circle cx="569" cy="166" r="8" fill="#F3EFF9" stroke="#75619C" stroke-width=".9"/>
+<polyline points="575,172 582,179" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="398,176 436,176" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="432.3982115905893,177.7398621364449 436,176 432.3982115905893,174.2601378635551" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="501,176 539,176" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="535.3982115905893,177.7398621364449 539,176 535.3982115905893,174.2601378635551" fill="none" stroke="#253E60" stroke-width=".85"/>
+<path d="M554,147 C532,122 491,125 481,143" fill="none" stroke="#75619C" stroke-width=".95" stroke-dasharray="4 3"/>
+<polyline points="481.8,141.56 481,143" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="481.2282699346098,139.00651870707358 481,143 484.27009622665315,140.69642220265325" fill="none" stroke="#75619C" stroke-width=".85"/>
+<text x="528" y="122" font-family="Times New Roman,serif" font-size="11.200000000000001" font-weight="normal" fill="#75619C" text-anchor="middle">Execution feedback</text>
+<polyline points="604,176 664,176 664,222" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="662.2601378635551,218.39821159058928 664,222 665.7398621364449,218.39821159058928" fill="none" stroke="#253E60" stroke-width=".85"/>
+<text x="618" y="169" font-family="Times New Roman,serif" font-size="12.32" font-weight="normal" fill="#253E60" text-anchor="start">Retain</text>
+<rect x="257" y="225" width="447" height="94" rx="3" fill="white" stroke="#253E60" stroke-width=".85"/>
+<text x="270" y="241" font-family="Times New Roman,serif" font-size="13.440000000000001" font-weight="bold" fill="#253E60" text-anchor="start">Constructed test</text>
+<text x="390" y="241" font-family="Times New Roman,serif" font-size="11.200000000000001" font-weight="normal" fill="#253E60" text-anchor="start">(illustrative)</text>
+<rect x="265" y="247" width="144" height="21" rx="0" fill="#EDF4FB" stroke="#253E60" stroke-width=".85"/>
+<text x="337.0" y="262" font-family="Times New Roman,serif" font-size="12.88" font-weight="bold" fill="#253E60" text-anchor="middle">Setup</text>
+<rect x="265" y="268" width="144" height="43" rx="0" fill="white" stroke="#253E60" stroke-width=".85"/>
+<rect x="409" y="247" width="139" height="21" rx="0" fill="#EDF7F8" stroke="#207E88" stroke-width=".85"/>
+<text x="478.5" y="262" font-family="Times New Roman,serif" font-size="12.88" font-weight="bold" fill="#207E88" text-anchor="middle">Inputs / actions</text>
+<rect x="409" y="268" width="139" height="43" rx="0" fill="white" stroke="#207E88" stroke-width=".85"/>
+<rect x="548" y="247" width="148" height="21" rx="0" fill="#FCF1EB" stroke="#A45232" stroke-width=".85"/>
+<text x="622.0" y="262" font-family="Times New Roman,serif" font-size="12.88" font-weight="bold" fill="#A45232" text-anchor="middle">Oracle</text>
+<rect x="548" y="268" width="148" height="43" rx="0" fill="white" stroke="#A45232" stroke-width=".85"/>
+<text x="279" y="285" font-family="Consolas,monospace" font-size="11.799999999999999" fill="#253E60">before = copy(x)</text>
+<text x="447" y="285" font-family="Consolas,monospace" font-size="11.799999999999999" fill="#253E60">y = sort(x)</text>
+<text x="561" y="285" font-family="Consolas,monospace" font-size="10.974" fill="#253E60">assert ordered(y)</text>
+<text x="561" y="298" font-family="Consolas,monospace" font-size="10.974" fill="#253E60">assert x == before</text>
+<polyline points="468,319 468,349" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="466.2601378635551,345.3982115905893 468,349 469.7398621364449,345.3982115905893" fill="none" stroke="#253E60" stroke-width=".85"/>
+<path d="M468,319 C425,330 355,325 333,351" fill="none" stroke="#253E60" stroke-width=".95"/>
+<polyline points="334.76,348.92 333,351" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="333.9983603850666,347.1265936771971 333,351 336.6547341718567,349.3742945737118" fill="none" stroke="#253E60" stroke-width=".85"/>
+<path d="M468,319 C515,329 589,327 604,351" fill="none" stroke="#253E60" stroke-width=".95"/>
+<polyline points="602.8,349.08 604,351" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="600.6156558199885,348.86781462550204 604,351 603.5664561018045,347.0235644493671" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polygon points="249,360 362,360 371,369 371,482 249,482 249,360" fill="#EDF7F8" stroke="#207E88" stroke-width=".85"/>
+<polyline points="362,360 362,369 371,369" fill="none" stroke="#207E88" stroke-width=".85"/>
+<text x="258" y="382" font-family="Times New Roman,serif" font-size="14.560000000000002" font-weight="bold" fill="#253E60" text-anchor="start">Scenarios</text>
+<text x="258" y="409" font-family="Consolas,monospace" font-size="9.675999999999998" fill="#253E60"># reverse order</text>
+<text x="258" y="422" font-family="Consolas,monospace" font-size="9.675999999999998" fill="#253E60">x = [3, 2, 1]</text>
+<text x="258" y="435" font-family="Consolas,monospace" font-size="9.675999999999998" fill="#253E60">...</text>
+<rect x="387" y="360" width="138" height="122" rx="3" fill="#F3EFF9" stroke="#75619C" stroke-width=".85"/>
+<text x="456" y="380" font-family="Times New Roman,serif" font-size="13.888000000000002" font-weight="bold" fill="#75619C" text-anchor="middle">Executable tests</text>
+<rect x="392" y="391" width="128" height="22" rx="1" fill="white" stroke="#75619C" stroke-width=".85"/>
+<text x="397" y="403" font-family="Consolas,monospace" font-size="9.086" fill="#253E60">setup: before = copy(x)</text>
+<rect x="392" y="424" width="128" height="22" rx="1" fill="white" stroke="#75619C" stroke-width=".85"/>
+<text x="397" y="436" font-family="Consolas,monospace" font-size="9.086" fill="#253E60">run: y = sort(x)</text>
+<rect x="392" y="457" width="128" height="24" rx="1" fill="white" stroke="#75619C" stroke-width=".85"/>
+<text x="397" y="469" font-family="Consolas,monospace" font-size="9.086" fill="#253E60">assert: ordered(y)</text>
+<text x="397" y="479" font-family="Consolas,monospace" font-size="9.086" fill="#253E60">assert: x == before</text>
+<polyline points="456,414 456,423" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="454.2601378635551,419.3982115905893 456,423 457.7398621364449,419.3982115905893" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="456,447 456,456" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="454.2601378635551,452.3982115905893 456,456 457.7398621364449,452.3982115905893" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polygon points="538,360 695,360 704,369 704,482 538,482 538,360" fill="#FCF1EB" stroke="#A45232" stroke-width=".85"/>
+<polyline points="695,360 695,369 704,369" fill="none" stroke="#A45232" stroke-width=".85"/>
+<text x="621" y="381" font-family="Times New Roman,serif" font-size="13.440000000000001" font-weight="bold" fill="#A45232" text-anchor="middle">Generators / mutators</text>
+<rect x="603" y="389" width="43" height="17" rx="3" fill="white" stroke="#A45232" stroke-width=".85"/>
+<text x="624" y="401" font-family="Times New Roman,serif" font-size="10.98" font-weight="normal" fill="#A45232" text-anchor="middle">&lt;list&gt;</text>
+<polyline points="624.0,407.0 565.96514032777,422.7382670297573" fill="none" stroke="#A45232" stroke-width=".85"/>
+<polyline points="568.9859922890022,420.1163491385335 565.96514032777,422.7382670297573 569.8967508585713,423.4747713638195" fill="none" stroke="#A45232" stroke-width=".85"/>
+<rect x="544.0" y="423" width="42" height="16" rx="2" fill="white" stroke="#A45232" stroke-width=".85"/>
+<text x="565" y="434" font-family="Times New Roman,serif" font-size="10.004" font-weight="normal" fill="#A45232" text-anchor="middle">&lt;size&gt;</text>
+<polyline points="624.0,407.0 616.4472135955,422.1055728090001" fill="none" stroke="#A45232" stroke-width=".85"/>
+<polyline points="616.5018023368751,418.10594531768106 616.4472135955,422.1055728090001 619.6141623437302,419.6621253211086" fill="none" stroke="#A45232" stroke-width=".85"/>
+<rect x="592.0" y="423" width="48" height="16" rx="2" fill="white" stroke="#A45232" stroke-width=".85"/>
+<text x="616" y="434" font-family="Times New Roman,serif" font-size="10.004" font-weight="normal" fill="#A45232" text-anchor="middle">&lt;elements&gt;</text>
+<polyline points="624.0,407.0 673.0475758528007,422.6952242728962" fill="none" stroke="#A45232" stroke-width=".85"/>
+<polyline points="669.08687785088,423.25457330309206 673.0475758528007,422.6952242728962 670.1474133462707,419.9403998799961" fill="none" stroke="#A45232" stroke-width=".85"/>
+<rect x="653.0" y="423" width="42" height="16" rx="2" fill="white" stroke="#A45232" stroke-width=".85"/>
+<text x="674" y="434" font-family="Times New Roman,serif" font-size="10.004" font-weight="normal" fill="#A45232" text-anchor="middle">&lt;pattern&gt;</text>
+<polyline points="565.0,440.0 550.7071067811866,454.29289321881345" fill="none" stroke="#A45232" stroke-width=".85"/>
+<polyline points="552.02368747487,450.5157758951101 550.7071067811866,454.29289321881345 554.4842241048899,452.97631252512997" fill="none" stroke="#A45232" stroke-width=".85"/>
+<text x="550" y="468" font-family="Times New Roman,serif" font-size="8.54" font-weight="normal" fill="#253E60" text-anchor="middle">0</text>
+<polyline points="565.0,440.0 565.0,454.0" fill="none" stroke="#A45232" stroke-width=".85"/>
+<polyline points="563.2601378635551,450.3982115905893 565.0,454.0 566.7398621364449,450.3982115905893" fill="none" stroke="#A45232" stroke-width=".85"/>
+<text x="565" y="468" font-family="Times New Roman,serif" font-size="8.54" font-weight="normal" fill="#253E60" text-anchor="middle">1</text>
+<polyline points="565.0,440.0 579.2928932188134,454.29289321881345" fill="none" stroke="#A45232" stroke-width=".85"/>
+<polyline points="575.5157758951101,452.97631252512997 579.2928932188134,454.29289321881345 577.97631252513,450.5157758951101" fill="none" stroke="#A45232" stroke-width=".85"/>
+<text x="580" y="468" font-family="Times New Roman,serif" font-size="8.54" font-weight="normal" fill="#253E60" text-anchor="middle">...</text>
+<polyline points="616.0,440.0 601.7071067811866,454.29289321881345" fill="none" stroke="#A45232" stroke-width=".85"/>
+<polyline points="603.02368747487,450.5157758951101 601.7071067811866,454.29289321881345 605.4842241048899,452.97631252512997" fill="none" stroke="#A45232" stroke-width=".85"/>
+<text x="601" y="468" font-family="Times New Roman,serif" font-size="8.54" font-weight="normal" fill="#253E60" text-anchor="middle">int</text>
+<polyline points="616.0,440.0 616.0,454.0" fill="none" stroke="#A45232" stroke-width=".85"/>
+<polyline points="614.2601378635551,450.3982115905893 616.0,454.0 617.7398621364449,450.3982115905893" fill="none" stroke="#A45232" stroke-width=".85"/>
+<text x="616" y="468" font-family="Times New Roman,serif" font-size="8.54" font-weight="normal" fill="#253E60" text-anchor="middle">str</text>
+<polyline points="616.0,440.0 630.2928932188134,454.29289321881345" fill="none" stroke="#A45232" stroke-width=".85"/>
+<polyline points="626.5157758951101,452.97631252512997 630.2928932188134,454.29289321881345 628.97631252513,450.5157758951101" fill="none" stroke="#A45232" stroke-width=".85"/>
+<text x="631" y="468" font-family="Times New Roman,serif" font-size="8.54" font-weight="normal" fill="#253E60" text-anchor="middle">...</text>
+<polyline points="674.0,440.0 659.7071067811866,454.29289321881345" fill="none" stroke="#A45232" stroke-width=".85"/>
+<polyline points="661.02368747487,450.5157758951101 659.7071067811866,454.29289321881345 663.4842241048899,452.97631252512997" fill="none" stroke="#A45232" stroke-width=".85"/>
+<text x="659" y="468" font-family="Times New Roman,serif" font-size="8.54" font-weight="normal" fill="#253E60" text-anchor="middle">sorted</text>
+<polyline points="674.0,440.0 689.2704627958599,454.3160588711187" fill="none" stroke="#A45232" stroke-width=".85"/>
+<polyline points="685.4528608760562,453.12194179900587 689.2704627958599,454.3160588711187 687.8327874234523,450.58335348178343" fill="none" stroke="#A45232" stroke-width=".85"/>
+<text x="690" y="468" font-family="Times New Roman,serif" font-size="8.54" font-weight="normal" fill="#253E60" text-anchor="middle">random</text>
+<text x="674" y="478" font-family="Times New Roman,serif" font-size="8.54" font-weight="normal" fill="#253E60" text-anchor="middle">...</text>
+<rect x="742" y="50" width="244" height="190" rx="4" fill="white" stroke="#207E88" stroke-width=".85"/>
+<text x="751" y="72" font-family="Times New Roman,serif" font-size="17.68" font-weight="bold" fill="#207E88" text-anchor="start">Operational evidence</text>
+<rect x="750" y="88" width="128" height="145" rx="0" fill="#EDF4FB" stroke="#253E60" stroke-width=".85"/>
+<text x="758" y="104" font-family="Consolas,monospace" font-size="10.03" fill="#253E60">def sort(x):</text>
+<text x="758" y="117" font-family="Consolas,monospace" font-size="10.03" fill="#253E60">  ...</text>
+<polyline points="800.7393766543422,124.99433695013036 800.3040605699341,135.0066068915146" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="798.7222922787654,131.33264321817032 800.3040605699341,135.0066068915146 802.1987322429736,131.48379278183157" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="796.4599004639462,146.84434673354738 785.1301161253962,162.3482621441947" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="785.850481795331,158.41366263451405 785.1301161253962,162.3482621441947 788.6599802811676,160.46675768185617" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="804.2426406871193,146.2426406871193 821.0502525316941,163.05025253169416" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="817.2731352079908,161.73367183801065 821.0502525316941,163.05025253169416 819.7336718380107,159.2731352079908" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="778.8720745952768,173.6099851579067 772.4825796388437,190.4550173157755" fill="none" stroke="#253E60" stroke-width=".85" stroke-dasharray="3 2"/>
+<polyline points="772.1332023549376,186.47030458918024 772.4825796388437,190.4550173157755 775.3867359423575,187.70440353613265" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="783.6832815729997,173.3665631459995 791.8695048315003,189.7390096630006" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="788.7025560832701,187.2955621751091 791.8695048315003,189.7390096630006 791.8149160901252,185.73938217168154" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="828.6832815729997,173.3665631459995 836.8695048315003,189.7390096630006" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="833.7025560832701,187.2955621751091 836.8695048315003,189.7390096630006 836.8149160901252,185.73938217168154" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="826.1090728820051,173.99900851027994 826.8727483043274,216.00115673800673" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="825.0676974367551,212.43159214754525 826.8727483043274,216.00115673800673 828.5468466911707,212.36833488837405" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="795.2141491830745,201.99617712608529 795.7501592864131,217.00446001956715" fill="none" stroke="#253E60" stroke-width=".85" stroke-dasharray="3 2"/>
+<polyline points="793.8828523546506,213.46706481651285 795.7501592864131,217.00446001956715 797.3603595363483,213.34286813145224" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="799.5857489010474,199.8692256352587 821.6499596154448,218.48590342553152" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="817.7751568787099,217.49297656448263 821.6499596154448,218.48590342553152 820.0191299387595,214.83345293775722" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="837.3971062873626,201.4060100185546 830.0367093314103,216.6929883116863" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="830.0316027088403,212.69299157138687 830.0367093314103,216.6929883116863 833.1668400890154,214.20255030998968" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="806.0,142.0 820.0,142.0" fill="none" stroke="#253E60" stroke-width=".85" stroke-dasharray="3 2"/>
+<polyline points="816.3982115905893,143.7398621364449 820.0,142.0 816.3982115905893,140.2601378635551" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="826.7694012673928,147.9955670477879 826.2690318547085,161.0051717775808" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="824.6688831462695,157.33917612689038 826.2690318547085,161.0051717775808 828.1460365105905,157.47291279474888" fill="none" stroke="#253E60" stroke-width=".85"/>
+<circle cx="801" cy="119" r="6" fill="#74BDC5" stroke="#253E60" stroke-width=".9"/>
+<circle cx="800" cy="142" r="6" fill="#74BDC5" stroke="#253E60" stroke-width=".9"/>
+<circle cx="781" cy="168" r="6" fill="white" stroke="#253E60" stroke-width=".9"/>
+<circle cx="826" cy="168" r="6" fill="#74BDC5" stroke="#253E60" stroke-width=".9"/>
+<circle cx="770" cy="197" r="6" fill="white" stroke="#253E60" stroke-width=".9" stroke-dasharray="3 2"/>
+<circle cx="795" cy="196" r="6" fill="#74BDC5" stroke="#253E60" stroke-width=".9"/>
+<circle cx="840" cy="196" r="6" fill="white" stroke="#253E60" stroke-width=".9"/>
+<circle cx="796" cy="224" r="6" fill="white" stroke="#253E60" stroke-width=".9" stroke-dasharray="3 2"/>
+<circle cx="827" cy="223" r="6" fill="#74BDC5" stroke="#253E60" stroke-width=".9"/>
+<circle cx="827" cy="142" r="6" fill="white" stroke="#253E60" stroke-width=".9" stroke-dasharray="3 2"/>
+<polyline points="896,90 896,169" fill="none" stroke="#207E88" stroke-width=".85"/>
+<text x="909" y="107" font-family="Times New Roman,serif" font-size="12.32" font-weight="normal" fill="#253E60" text-anchor="start">Execution</text>
+<text x="909" y="135" font-family="Times New Roman,serif" font-size="12.32" font-weight="normal" fill="#253E60" text-anchor="start">Coverage</text>
+<text x="909" y="161" font-family="Times New Roman,serif" font-size="12.32" font-weight="normal" fill="#253E60" text-anchor="start">Stability / cost</text>
+<circle cx="896" cy="197" r="6" fill="#74BDC5" stroke="#207E88" stroke-width=".9"/>
+<text x="906" y="201" font-family="Times New Roman,serif" font-size="11.760000000000002" font-weight="normal" fill="#253E60" text-anchor="start">Executed path</text>
+<circle cx="896" cy="219" r="6" fill="white" stroke="#207E88" stroke-width=".9"/>
+<text x="906" y="223" font-family="Times New Roman,serif" font-size="11.760000000000002" font-weight="normal" fill="#253E60" text-anchor="start">Uncovered path</text>
+<rect x="742" y="247" width="244" height="247" rx="4" fill="white" stroke="#A45232" stroke-width=".85"/>
+<text x="751" y="268" font-family="Times New Roman,serif" font-size="17.68" font-weight="bold" fill="#A45232" text-anchor="start">Behavioral evidence</text>
+<polygon points="755,296 827,296 836,305 836,397 755,397 755,296" fill="#EDF4FB" stroke="#253E60" stroke-width=".85"/>
+<polyline points="827,296 827,305 836,305" fill="none" stroke="#253E60" stroke-width=".85"/>
+<text x="763" y="314" font-family="Times New Roman,serif" font-size="12.32" font-weight="bold" fill="#253E60" text-anchor="start">Specification</text>
+<polyline points="762,321 828,321" fill="none" stroke="#253E60" stroke-width=".85"/>
+<text x="760" y="337" font-family="Consolas,monospace" font-size="8.968" fill="#253E60">Preconditions:</text>
+<text x="760" y="347" font-family="Consolas,monospace" font-size="8.968" fill="#253E60">  ...</text>
+<text x="760" y="357" font-family="Consolas,monospace" font-size="8.968" fill="#253E60">Postconditions:</text>
+<text x="760" y="367" font-family="Consolas,monospace" font-size="8.968" fill="#253E60">  ...</text>
+<text x="760" y="377" font-family="Consolas,monospace" font-size="8.968" fill="#253E60">Invariants:</text>
+<text x="760" y="387" font-family="Consolas,monospace" font-size="8.968" fill="#253E60">  ...</text>
+<text x="925" y="287" font-family="Times New Roman,serif" font-size="11.200000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">Valid programs</text>
+<text x="925" y="299" font-family="Times New Roman,serif" font-size="11.59" font-weight="normal" fill="#253E60" text-anchor="middle">(legal behavior)</text>
+<polygon points="892,309 960,309 969,318 969,352 892,352 892,309" fill="#EDF7F8" stroke="#207E88" stroke-width=".85"/>
+<polyline points="960,309 960,318 969,318" fill="none" stroke="#207E88" stroke-width=".85"/>
+<text x="899" y="326" font-family="Consolas,monospace" font-size="9.44" fill="#253E60">def sort(x):</text>
+<text x="899" y="339" font-family="Consolas,monospace" font-size="9.44" fill="#253E60">  ...</text>
+<text x="925" y="368" font-family="Times New Roman,serif" font-size="11.200000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">Faulty programs</text>
+<text x="925" y="380" font-family="Times New Roman,serif" font-size="11.59" font-weight="normal" fill="#253E60" text-anchor="middle">(incorrect behavior)</text>
+<polygon points="892,390 960,390 969,399 969,433 892,433 892,390" fill="#FCF1EB" stroke="#A45232" stroke-width=".85"/>
+<polyline points="960,390 960,399 969,399" fill="none" stroke="#A45232" stroke-width=".85"/>
+<text x="899" y="407" font-family="Consolas,monospace" font-size="9.44" fill="#253E60">def sort(x):</text>
+<text x="899" y="420" font-family="Consolas,monospace" font-size="9.44" fill="#253E60">  ...</text>
+<path d="M836,346 C860,341 858,319 888,319" fill="none" stroke="#253E60" stroke-width=".95"/>
+<polyline points="885.6,319.0 888,319" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="884.3982115905893,320.7398621364449 888,319 884.3982115905893,317.2601378635551" fill="none" stroke="#253E60" stroke-width=".85"/>
+<path d="M836,356 C860,363 856,398 888,398" fill="none" stroke="#253E60" stroke-width=".95"/>
+<polyline points="885.44,398.0 888,398" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="884.3982115905893,399.7398621364449 888,398 884.3982115905893,396.2601378635551" fill="none" stroke="#253E60" stroke-width=".85"/>
+<polyline points="711,455 830,455" fill="none" stroke="#207E88" stroke-width=".85"/>
+<polyline points="826.3982115905893,456.7398621364449 830,455 826.3982115905893,453.2601378635551" fill="none" stroke="#207E88" stroke-width=".85"/>
+<text x="753" y="449" font-family="Times New Roman,serif" font-size="11.200000000000001" font-weight="bold" fill="#253E60" text-anchor="start">Independent</text>
+<text x="753" y="466" font-family="Times New Roman,serif" font-size="11.200000000000001" font-weight="bold" fill="#253E60" text-anchor="start">evaluation</text>
+<polyline points="860,442 860,484" fill="none" stroke="#A45232" stroke-width=".85"/>
+<text x="866" y="450" font-family="Times New Roman,serif" font-size="11.468" font-weight="normal" fill="#253E60" text-anchor="start">Oracle validity</text>
+<text x="866" y="465" font-family="Times New Roman,serif" font-size="11.468" font-weight="normal" fill="#253E60" text-anchor="start">Accept legal behavior</text>
+<text x="866" y="480" font-family="Times New Roman,serif" font-size="11.468" font-weight="normal" fill="#253E60" text-anchor="start">Detect faulty behavior</text>
+<rect x="9" y="512" width="982" height="66" rx="4" fill="#F3EFF9" stroke="#75619C" stroke-width=".85" stroke-dasharray="4 3"/>
+<text x="19" y="542" font-family="Times New Roman,serif" font-size="19.76" font-weight="bold" fill="#75619C" text-anchor="start">Learning across tasks</text>
+<text x="19" y="560" font-family="Times New Roman,serif" font-size="12.32" font-weight="normal" fill="#253E60" text-anchor="start">Training-time information</text>
+<rect x="248" y="523" width="177" height="48" rx="4" fill="white" stroke="#75619C" stroke-width=".85"/>
+<text x="336.5" y="538" font-family="Times New Roman,serif" font-size="12.88" font-weight="bold" fill="#253E60" text-anchor="middle">Training data</text>
+<text x="336.5" y="552" font-family="Times New Roman,serif" font-size="11.200000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">Code, tests, specifications,</text>
+<text x="336.5" y="564" font-family="Times New Roman,serif" font-size="11.200000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">human feedback, ...</text>
+<rect x="468" y="523" width="200" height="48" rx="4" fill="white" stroke="#75619C" stroke-width=".85"/>
+<text x="568.0" y="538" font-family="Times New Roman,serif" font-size="12.88" font-weight="bold" fill="#253E60" text-anchor="middle">SFT / RL / self-play</text>
+<text x="568.0" y="552" font-family="Times New Roman,serif" font-size="11.200000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">Learn generation policy</text>
+<text x="568.0" y="564" font-family="Times New Roman,serif" font-size="11.200000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">across tasks</text>
+<rect x="713" y="523" width="178" height="48" rx="4" fill="white" stroke="#75619C" stroke-width=".85"/>
+<text x="802.0" y="538" font-family="Times New Roman,serif" font-size="12.88" font-weight="bold" fill="#253E60" text-anchor="middle">Updated generator</text>
+<text x="802.0" y="552" font-family="Times New Roman,serif" font-size="11.200000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">Better priors for</text>
+<text x="802.0" y="564" font-family="Times New Roman,serif" font-size="11.200000000000001" font-weight="normal" fill="#253E60" text-anchor="middle">test generation</text>
+<polyline points="425,547 467,547" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="463.3982115905893,548.7398621364449 467,547 463.3982115905893,545.2601378635551" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="668,547 712,547" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="708.3982115905893,548.7398621364449 712,547 708.3982115905893,545.2601378635551" fill="none" stroke="#75619C" stroke-width=".85"/>
+<rect x="906" y="540" width="12" height="12" rx="2" fill="#F3EFF9" stroke="#75619C" stroke-width=".85"/>
+<polyline points="909,537 909,540" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="909,552 909,555" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="903,543 906,543" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="918,543 921,543" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="915,537 915,540" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="915,552 915,555" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="903,549 906,549" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="918,549 921,549" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="909,543 914,546" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="909,549 914,546" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="914,546 915,549" fill="none" stroke="#75619C" stroke-width=".85"/>
+<circle cx="909" cy="543" r="1" fill="#75619C" stroke="#75619C" stroke-width=".9"/>
+<circle cx="909" cy="549" r="1" fill="#75619C" stroke="#75619C" stroke-width=".9"/>
+<circle cx="914" cy="546" r="1" fill="#75619C" stroke="#75619C" stroke-width=".9"/>
+<circle cx="915" cy="549" r="1" fill="#75619C" stroke="#75619C" stroke-width=".9"/>
+<polyline points="891,546 902,546" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="898.3982115905893,547.7398621364449 902,546 898.3982115905893,544.2601378635551" fill="none" stroke="#75619C" stroke-width=".85"/>
+<rect x="506" y="207" width="12" height="12" rx="2" fill="#F3EFF9" stroke="#75619C" stroke-width=".85"/>
+<polyline points="509,204 509,207" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="509,219 509,222" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="503,210 506,210" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="518,210 521,210" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="515,204 515,207" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="515,219 515,222" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="503,216 506,216" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="518,216 521,216" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="509,210 514,213" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="509,216 514,213" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="514,213 515,216" fill="none" stroke="#75619C" stroke-width=".85"/>
+<circle cx="509" cy="210" r="1" fill="#75619C" stroke="#75619C" stroke-width=".9"/>
+<circle cx="509" cy="216" r="1" fill="#75619C" stroke="#75619C" stroke-width=".9"/>
+<circle cx="514" cy="213" r="1" fill="#75619C" stroke="#75619C" stroke-width=".9"/>
+<circle cx="515" cy="216" r="1" fill="#75619C" stroke="#75619C" stroke-width=".9"/>
+<polyline points="502,213 494,213 483,205" fill="none" stroke="#75619C" stroke-width=".85"/>
+<polyline points="486.9362339212288,205.71138071197356 483,205 484.8895585882021,208.52555929488526" fill="none" stroke="#75619C" stroke-width=".85"/>
+<text x="527" y="217" font-family="Times New Roman,serif" font-size="10.37" font-weight="normal" fill="#75619C" text-anchor="start">model update</text>
+<polyline points="10,592 990,592" fill="none" stroke="#253E60" stroke-width=".85"/>
+<text x="500" y="612" font-family="Times New Roman,serif" font-size="13.440000000000001" font-weight="bold" fill="#253E60" text-anchor="middle">Unit / regression   ·   Requirements / acceptance   ·   API / GUI   ·   Fuzzing   ·   Bug reproduction</text>
+</svg>

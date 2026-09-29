@@ -1,0 +1,33 @@
+\documentclass[acmsmall,screen,review,anonymous]{acmart}
+\usepackage{booktabs,tabularx,array}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\sut}{\textsc{sut}}
+\setcopyright{none}
+\acmDOI{}
+\acmISBN{}
+\acmYear{2027}
+\copyrightyear{2027}
+\acmConference[FSE 2027]{FSE 2027}{July 12--16, 2027}{Shenzhen, China}
+\settopmatter{printfolios=true}
+\title[LLM-Based Test Generation]{LLM-Based Test Generation: Information Sources, Generation Strategies, and Quality Evidence}
+\author{Anonymous Author(s)}
+\begin{document}
+\begin{abstract}
+Large language models are increasingly used to generate test scenarios, executable test suites, assertions, interaction sequences, and fuzzing infrastructure. These artifacts serve different purposes and rely on different sources of information about correct behavior. A test that increases implementation coverage, a test that agrees with a reference program, and a test that detects a requirements violation therefore provide distinct kinds of evidence. We present a structured narrative survey that connects the generation process to the evidence used to justify test quality. Drawing on a curated literature collection through September 2026, we organize the field along four dimensions: testing objectives and artifacts, information available during training and generation, generation and learning mechanisms, and evaluation evidence. We synthesize work on unit and requirements-based testing, test oracles, API and GUI testing, fuzzing, and learned test generators. The resulting framework explains how execution feedback can improve executability while also affecting the independence of an oracle, why training-time reference access matters for comparisons, and how downstream code-selection gains differ from test correctness. We use these distinctions to organize benchmarks and derive a research agenda for independent oracle assessment, budget-aware generation, repository-scale evaluation, and test maintenance.
+\end{abstract}
+\ccsdesc[500]{Software and its engineering~Software testing and debugging}
+\ccsdesc[300]{Computing methodologies~Natural language generation}
+\keywords{large language models, test generation, test oracles, software testing, survey}
+\maketitle
+\input{sections/01-introduction}
+\input{sections/02-foundations}
+\input{sections/03-scope}
+\input{sections/04-landscape}
+\input{sections/05-generation}
+\input{sections/06-learning}
+\input{sections/07-evaluation}
+\input{sections/08-agenda}
+\input{sections/09-conclusion}
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+\end{document}

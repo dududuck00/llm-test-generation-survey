@@ -1,0 +1,957 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{60}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Aditi et~al\mbox{.}(2025)]%
+        {T08}
+\bibfield{author}{\bibinfo{person}{Aditi}, \bibinfo{person}{Hyunwoo Park},
+  \bibinfo{person}{Sicheol Sung}, \bibinfo{person}{Yo-Sub Han}, {and}
+  \bibinfo{person}{Sang-Ki Ko}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{SAGE: Specification-Aware Grammar Extraction for
+  Automated Test Case Generation with LLMs}}.
+\newblock \bibinfo{howpublished}{arXiv:2506.11081}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2506.11081}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Alshahwan et~al\mbox{.}(2024)]%
+        {U07}
+\bibfield{author}{\bibinfo{person}{Nadia Alshahwan}, \bibinfo{person}{Jubin
+  Chheda}, \bibinfo{person}{Anastasia Finegenova}, \bibinfo{person}{Beliz
+  Gokkaya}, \bibinfo{person}{Mark Harman}, \bibinfo{person}{Inna Harper},
+  \bibinfo{person}{Alexandru Marginean}, \bibinfo{person}{Shubho Sengupta},
+  {and} \bibinfo{person}{Eddy Wang}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{Automated Unit Test Improvement using Large Language
+  Models at Meta}}.
+\newblock \bibinfo{howpublished}{arXiv:2402.09171}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2402.09171}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Arora et~al\mbox{.}(2024)]%
+        {R01}
+\bibfield{author}{\bibinfo{person}{Chetan Arora}, \bibinfo{person}{Tomas
+  Herda}, {and} \bibinfo{person}{Verena Homm}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{Generating Test Scenarios from NL Requirements
+  using Retrieval-Augmented LLMs: An Industrial Study}}. In
+  \bibinfo{booktitle}{\emph{2024 IEEE 32nd International Requirements
+  Engineering Conference (RE)}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{pages}{240--251}.
+\newblock
+\href{https://doi.org/10.1109/RE59067.2024.00031}{doi:\nolinkurl{10.1109/RE59067.2024.00031}}
+
+
+\bibitem[Augusto et~al\mbox{.}(2025)]%
+        {S04}
+\bibfield{author}{\bibinfo{person}{Cristian Augusto}, \bibinfo{person}{Antonia
+  Bertolino}, \bibinfo{person}{Guglielmo De~Angelis},
+  \bibinfo{person}{Francesca Lonetti}, {and} \bibinfo{person}{Jes{\'u}s
+  Mor{\'a}n}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{Large Language Models for Software Testing: A
+  Research Roadmap}}.
+\newblock \bibinfo{howpublished}{arXiv:2509.25043}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2509.25043}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Berndt et~al\mbox{.}(2026)]%
+        {E03}
+\bibfield{author}{\bibinfo{person}{Alexander Berndt}, \bibinfo{person}{Thomas
+  Bach}, \bibinfo{person}{Rainer Gemulla}, \bibinfo{person}{Marcus Kessel},
+  {and} \bibinfo{person}{Sebastian Baltes}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{On the Flakiness of LLM-Generated Tests for
+  Industrial and Open-Source Database Management Systems}}.
+\newblock \bibinfo{howpublished}{arXiv:2601.08998}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2601.08998}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Chang et~al\mbox{.}(2026)]%
+        {U10}
+\bibfield{author}{\bibinfo{person}{Pengyu Chang}, \bibinfo{person}{Yixiong
+  Fang}, \bibinfo{person}{Silin Chen}, \bibinfo{person}{Yuling Shi},
+  \bibinfo{person}{Beijun Shen}, {and} \bibinfo{person}{Xiaodong Gu}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{Test vs Mutant: Adversarial LLM Agents for Robust
+  Unit Test Generation}}.
+\newblock \bibinfo{howpublished}{arXiv:2602.08146}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2602.08146}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Chen et~al\mbox{.}(2022)]%
+        {T10}
+\bibfield{author}{\bibinfo{person}{Bei Chen}, \bibinfo{person}{Fengji Zhang},
+  \bibinfo{person}{Anh Nguyen}, \bibinfo{person}{Daoguang Zan},
+  \bibinfo{person}{Zeqi Lin}, \bibinfo{person}{Jian-Guang Lou}, {and}
+  \bibinfo{person}{Weizhu Chen}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{{CodeT: Code Generation with Generated Tests}}.
+\newblock \bibinfo{howpublished}{arXiv:2207.10397}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2207.10397}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Chen et~al\mbox{.}(2025)]%
+        {F06}
+\bibfield{author}{\bibinfo{person}{Chuyang Chen}, \bibinfo{person}{Brendan
+  Dolan-Gavitt}, {and} \bibinfo{person}{Zhiqiang Lin}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{ELFuzz: Efficient Input Generation via LLM-driven
+  Synthesis Over Fuzzer Space}}. In \bibinfo{booktitle}{\emph{34th USENIX
+  Security Symposium}}. \bibinfo{publisher}{USENIX Association},
+  \bibinfo{address}{Seattle, WA}, \bibinfo{pages}{6279--6298}.
+\newblock
+\urldef\tempurl%
+\url{https://www.usenix.org/conference/usenixsecurity25/presentation/chen-chuyang}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Chen et~al\mbox{.}(2023)]%
+        {U02}
+\bibfield{author}{\bibinfo{person}{Yinghao Chen}, \bibinfo{person}{Zehao Hu},
+  \bibinfo{person}{Chen Zhi}, \bibinfo{person}{Junxiao Han},
+  \bibinfo{person}{Shuiguang Deng}, {and} \bibinfo{person}{Jianwei Yin}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{ChatUniTest: A Framework for LLM-Based Test
+  Generation}}.
+\newblock \bibinfo{howpublished}{arXiv:2305.04764}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2305.04764}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Chu et~al\mbox{.}(2025)]%
+        {S03}
+\bibfield{author}{\bibinfo{person}{Bei Chu}, \bibinfo{person}{Yang Feng},
+  \bibinfo{person}{Kui Liu}, \bibinfo{person}{Zhaoqiang Guo},
+  \bibinfo{person}{Yichi Zhang}, \bibinfo{person}{Hange Shi},
+  \bibinfo{person}{Zifan Nan}, {and} \bibinfo{person}{Baowen Xu}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{Large Language Models for Unit Test Generation:
+  Achievements, Challenges, and Opportunities}}.
+\newblock \bibinfo{howpublished}{arXiv:2511.21382}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2511.21382}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Dakhel et~al\mbox{.}(2023)]%
+        {U06}
+\bibfield{author}{\bibinfo{person}{Arghavan~Moradi Dakhel},
+  \bibinfo{person}{Amin Nikanjam}, \bibinfo{person}{Vahid Majdinasab},
+  \bibinfo{person}{Foutse Khomh}, {and} \bibinfo{person}{Michel~C. Desmarais}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{Effective Test Generation Using Pre-trained Large
+  Language Models and Mutation Testing}}.
+\newblock \bibinfo{howpublished}{arXiv:2308.16557}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2308.16557}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Deng et~al\mbox{.}(2022)]%
+        {F01}
+\bibfield{author}{\bibinfo{person}{Yinlin Deng},
+  \bibinfo{person}{Chunqiu~Steven Xia}, \bibinfo{person}{Haoran Peng},
+  \bibinfo{person}{Chenyuan Yang}, {and} \bibinfo{person}{Lingming Zhang}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{{Large Language Models are Zero-Shot Fuzzers: Fuzzing
+  Deep-Learning Libraries via Large Language Models}}.
+\newblock \bibinfo{howpublished}{arXiv:2212.14834}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2212.14834}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Deng et~al\mbox{.}(2023)]%
+        {F02}
+\bibfield{author}{\bibinfo{person}{Yinlin Deng},
+  \bibinfo{person}{Chunqiu~Steven Xia}, \bibinfo{person}{Chenyuan Yang},
+  \bibinfo{person}{Shizhuo~Dylan Zhang}, \bibinfo{person}{Shujing Yang}, {and}
+  \bibinfo{person}{Lingming Zhang}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{Large Language Models are Edge-Case Fuzzers: Testing
+  Deep Learning Libraries via FuzzGPT}}.
+\newblock \bibinfo{howpublished}{arXiv:2304.02014}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2304.02014}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Dinella et~al\mbox{.}(2022)]%
+        {O04}
+\bibfield{author}{\bibinfo{person}{Elizabeth Dinella}, \bibinfo{person}{Gabriel
+  Ryan}, \bibinfo{person}{Todd Mytkowicz}, {and} \bibinfo{person}{Shuvendu~K.
+  Lahiri}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{{TOGA: A Neural Method for Test Oracle
+  Generation}}. In \bibinfo{booktitle}{\emph{Proceedings of the 44th
+  International Conference on Software Engineering}}. \bibinfo{publisher}{ACM},
+  \bibinfo{pages}{2130--2141}.
+\newblock
+\href{https://doi.org/10.1145/3510003.3510141}{doi:\nolinkurl{10.1145/3510003.3510141}}
+
+
+\bibitem[Endres et~al\mbox{.}(2023)]%
+        {O01}
+\bibfield{author}{\bibinfo{person}{Madeline Endres}, \bibinfo{person}{Sarah
+  Fakhoury}, \bibinfo{person}{Saikat Chakraborty}, {and}
+  \bibinfo{person}{Shuvendu~K. Lahiri}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{Can Large Language Models Transform Natural Language
+  Intent into Formal Method Postconditions?}}
+\newblock \bibinfo{howpublished}{arXiv:2310.01831}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2310.01831}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Fakhoury et~al\mbox{.}(2024)]%
+        {T11}
+\bibfield{author}{\bibinfo{person}{Sarah Fakhoury}, \bibinfo{person}{Aaditya
+  Naik}, \bibinfo{person}{Georgios Sakkas}, \bibinfo{person}{Saikat
+  Chakraborty}, {and} \bibinfo{person}{Shuvendu~K. Lahiri}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{LLM-Based Test-Driven Interactive Code Generation:
+  User Study and Empirical Evaluation}}.
+\newblock \bibinfo{howpublished}{arXiv:2404.10100}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2404.10100}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Ferreira et~al\mbox{.}(2025)]%
+        {R03}
+\bibfield{author}{\bibinfo{person}{Margarida Ferreira}, \bibinfo{person}{Luis
+  Viegas}, \bibinfo{person}{Joao~Pascoal Faria}, {and} \bibinfo{person}{Bruno
+  Lima}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{Acceptance Test Generation with Large Language
+  Models: An Industrial Case Study}}. In \bibinfo{booktitle}{\emph{2025
+  IEEE/ACM International Conference on Automation of Software Test (AST)}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{pages}{1--11}.
+\newblock
+\href{https://doi.org/10.1109/AST66626.2025.00007}{doi:\nolinkurl{10.1109/AST66626.2025.00007}}
+
+
+\bibitem[Folorunsho and Reza(2026)]%
+        {S06}
+\bibfield{author}{\bibinfo{person}{Orimoloye Folorunsho} {and}
+  \bibinfo{person}{Hassan Reza}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{AI-Driven Test Case Generation from Natural Language
+  Requirements: A Survey of Techniques and Research Gaps}}.
+\newblock \bibinfo{howpublished}{arXiv:2606.06563}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2606.06563}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Haroon et~al\mbox{.}(2026)]%
+        {E02}
+\bibfield{author}{\bibinfo{person}{Sabaat Haroon},
+  \bibinfo{person}{Mohammad~Taha Khan}, {and} \bibinfo{person}{Muhammad~Ali
+  Gulzar}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{Evaluating LLM-Based Test Generation Under Software
+  Evolution}}.
+\newblock \bibinfo{howpublished}{arXiv:2603.23443}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2603.23443}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Hossain et~al\mbox{.}(2023)]%
+        {O05}
+\bibfield{author}{\bibinfo{person}{Soneya~Binta Hossain},
+  \bibinfo{person}{Antonio Filieri}, \bibinfo{person}{Matthew~B. Dwyer},
+  \bibinfo{person}{Sebastian Elbaum}, {and} \bibinfo{person}{Willem Visser}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{Neural-Based Test Oracle Generation: A Large-scale
+  Evaluation and Lessons Learned}}.
+\newblock \bibinfo{howpublished}{arXiv:2307.16023}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2307.16023}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Huang et~al\mbox{.}(2025a)]%
+        {O03}
+\bibfield{author}{\bibinfo{person}{Dong Huang}, \bibinfo{person}{Mingzhe Du},
+  \bibinfo{person}{Jie~M. Zhang}, \bibinfo{person}{Zheng Lin},
+  \bibinfo{person}{Meng Luo}, \bibinfo{person}{Qianru Zhang}, {and}
+  \bibinfo{person}{See-Kiong Ng}.} \bibinfo{year}{2025}\natexlab{a}.
+\newblock \bibinfo{title}{{Nexus: Execution-Grounded Multi-Agent Test Oracle
+  Synthesis}}.
+\newblock \bibinfo{howpublished}{arXiv:2510.26423}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2510.26423}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Huang et~al\mbox{.}(2025b)]%
+        {B04}
+\bibfield{author}{\bibinfo{person}{Dong Huang}, \bibinfo{person}{Jie~M. Zhang},
+  \bibinfo{person}{Mark Harman}, \bibinfo{person}{Qianru Zhang},
+  \bibinfo{person}{Mingzhe Du}, {and} \bibinfo{person}{See-Kiong Ng}.}
+  \bibinfo{year}{2025}\natexlab{b}.
+\newblock \bibinfo{title}{{Benchmarking LLMs for Unit Test Generation from
+  Real-World Functions}}.
+\newblock \bibinfo{howpublished}{arXiv:2508.00408}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2508.00408}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Jain et~al\mbox{.}(2024)]%
+        {B01}
+\bibfield{author}{\bibinfo{person}{Kush Jain}, \bibinfo{person}{Gabriel
+  Synnaeve}, {and} \bibinfo{person}{Baptiste Rozi{\`e}re}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{TestGenEval: A Real World Unit Test Generation and
+  Test Completion Benchmark}}.
+\newblock \bibinfo{howpublished}{arXiv:2410.00752}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2410.00752}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Kang et~al\mbox{.}(2022)]%
+        {G01}
+\bibfield{author}{\bibinfo{person}{Sungmin Kang}, \bibinfo{person}{Juyeon
+  Yoon}, {and} \bibinfo{person}{Shin Yoo}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{{Large Language Models are Few-shot Testers:
+  Exploring LLM-based General Bug Reproduction}}.
+\newblock \bibinfo{howpublished}{arXiv:2209.11515}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2209.11515}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Kogler et~al\mbox{.}(2026)]%
+        {B05}
+\bibfield{author}{\bibinfo{person}{Leon Kogler}, \bibinfo{person}{Stefan
+  Hangler}, \bibinfo{person}{Maximilian Ehrhart}, \bibinfo{person}{Benedikt
+  Dornauer}, \bibinfo{person}{Roland Wuersching}, {and} \bibinfo{person}{Peter
+  Schrammel}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{RESTestBench: A Benchmark for Evaluating the
+  Effectiveness of LLM-Generated REST API Test Cases from NL Requirements}}.
+\newblock \bibinfo{howpublished}{arXiv:2604.25862}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2604.25862}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Lee et~al\mbox{.}(2026)]%
+        {T02}
+\bibfield{author}{\bibinfo{person}{Dongjun Lee}, \bibinfo{person}{Changho
+  Hwang}, {and} \bibinfo{person}{Kimin Lee}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{Learning to Generate Unit Test via Adversarial
+  Reinforcement Learning}}. In \bibinfo{booktitle}{\emph{International
+  Conference on Learning Representations (ICLR)}}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.iclr.cc/paper_files/paper/2026/hash/efb02f96766a3b599c76852abf4d42dd-Abstract-Conference.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Lemieux et~al\mbox{.}(2023)]%
+        {U04}
+\bibfield{author}{\bibinfo{person}{Caroline Lemieux},
+  \bibinfo{person}{Jeevana~Priya Inala}, \bibinfo{person}{Shuvendu~K. Lahiri},
+  {and} \bibinfo{person}{Siddhartha Sen}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{CODAMOSA: Escaping Coverage Plateaus in Test
+  Generation with Pre-trained Large Language Models}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the International Conference on
+  Software Engineering (ICSE)}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.microsoft.com/en-us/research/publication/codamosa-escaping-coverage-plateaus-in-test-generation-with-pre-trained-large-language-models/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Li et~al\mbox{.}(2026)]%
+        {T03}
+\bibfield{author}{\bibinfo{person}{Qingyao Li}, \bibinfo{person}{Xinyi Dai},
+  \bibinfo{person}{Weiwen Liu}, \bibinfo{person}{Xiangyang Li},
+  \bibinfo{person}{Yasheng Wang}, \bibinfo{person}{Ruiming Tang},
+  \bibinfo{person}{Yong Yu}, {and} \bibinfo{person}{Weinan Zhang}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{ATGen: Adversarial Reinforcement Learning for Test
+  Case Generation}}. In \bibinfo{booktitle}{\emph{International Conference on
+  Learning Representations (ICLR)}}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.iclr.cc/paper_files/paper/2026/hash/eed25c037bc08afcbefab6f7a6b700e0-Abstract-Conference.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Lin et~al\mbox{.}(2025)]%
+        {T04}
+\bibfield{author}{\bibinfo{person}{Zi Lin}, \bibinfo{person}{Sheng Shen},
+  \bibinfo{person}{Ilia Kulikov}, \bibinfo{person}{Jingbo Shang},
+  \bibinfo{person}{Jason Weston}, {and} \bibinfo{person}{Yixin Nie}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{Learning to Solve and Verify: A Self-Play Framework
+  for Code and Test Generation}}.
+\newblock \bibinfo{howpublished}{arXiv:2502.14948}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2502.14948}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Liu et~al\mbox{.}(2023)]%
+        {A04}
+\bibfield{author}{\bibinfo{person}{Zhe Liu}, \bibinfo{person}{Chunyang Chen},
+  \bibinfo{person}{Junjie Wang}, \bibinfo{person}{Mengzhuo Chen},
+  \bibinfo{person}{Boyu Wu}, \bibinfo{person}{Xing Che},
+  \bibinfo{person}{Dandan Wang}, {and} \bibinfo{person}{Qing Wang}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{Make LLM a Testing Expert: Bringing Human-like
+  Interaction to Mobile GUI Testing via Functionality-aware Decisions}}.
+\newblock \bibinfo{howpublished}{arXiv:2310.15780}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2310.15780}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Lyu et~al\mbox{.}(2024)]%
+        {F05}
+\bibfield{author}{\bibinfo{person}{Yunlong Lyu}, \bibinfo{person}{Yuxuan Xie},
+  \bibinfo{person}{Peng Chen}, {and} \bibinfo{person}{Hao Chen}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{Prompt Fuzzing for Fuzz Driver Generation}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2024 on ACM SIGSAC Conference on
+  Computer and Communications Security}}. \bibinfo{publisher}{ACM},
+  \bibinfo{pages}{3793--3807}.
+\newblock
+\href{https://doi.org/10.1145/3658644.3670396}{doi:\nolinkurl{10.1145/3658644.3670396}}
+
+
+\bibitem[Ma et~al\mbox{.}(2025)]%
+        {T06}
+\bibfield{author}{\bibinfo{person}{Zeyao Ma}, \bibinfo{person}{Xiaokang Zhang},
+  \bibinfo{person}{Jing Zhang}, \bibinfo{person}{Jifan Yu},
+  \bibinfo{person}{Sijia Luo}, {and} \bibinfo{person}{Jie Tang}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{Dynamic Scaling of Unit Tests for Code Reward
+  Modeling}}. In \bibinfo{booktitle}{\emph{Proceedings of the 63rd Annual
+  Meeting of the Association for Computational Linguistics (Volume 1: Long
+  Papers)}}. \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Vienna, Austria}, \bibinfo{pages}{6917--6935}.
+\newblock
+\href{https://doi.org/10.18653/v1/2025.acl-long.343}{doi:\nolinkurl{10.18653/v1/2025.acl-long.343}}
+
+
+\bibitem[Meng et~al\mbox{.}(2024)]%
+        {F04}
+\bibfield{author}{\bibinfo{person}{Ruijie Meng}, \bibinfo{person}{Martin
+  Mirchev}, \bibinfo{person}{Marcel B{\"o}hme}, {and} \bibinfo{person}{Abhik
+  Roychoudhury}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{Large Language Model guided Protocol Fuzzing}}. In
+  \bibinfo{booktitle}{\emph{Proceedings 2024 Network and Distributed System
+  Security Symposium}}. \bibinfo{publisher}{Internet Society}.
+\newblock
+\href{https://doi.org/10.14722/ndss.2024.24556}{doi:\nolinkurl{10.14722/ndss.2024.24556}}
+
+
+\bibitem[Milchevski et~al\mbox{.}(2025)]%
+        {R02}
+\bibfield{author}{\bibinfo{person}{Dragan Milchevski}, \bibinfo{person}{Gordon
+  Frank}, \bibinfo{person}{Anna H{\"a}tty}, \bibinfo{person}{Bingqing Wang},
+  \bibinfo{person}{Xiaowei Zhou}, {and} \bibinfo{person}{Zhe Feng}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{Multi-Step Generation of Test Specifications using
+  Large Language Models for System-Level Requirements}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 63rd Annual Meeting of the
+  Association for Computational Linguistics (Volume 6: Industry Track)}}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{pages}{132--146}.
+\newblock
+\href{https://doi.org/10.18653/v1/2025.acl-industry.11}{doi:\nolinkurl{10.18653/v1/2025.acl-industry.11}}
+
+
+\bibitem[M{\"u}ndler et~al\mbox{.}(2024)]%
+        {B03}
+\bibfield{author}{\bibinfo{person}{Niels M{\"u}ndler},
+  \bibinfo{person}{Mark~Niklas M{\"u}ller}, \bibinfo{person}{Jingxuan He},
+  {and} \bibinfo{person}{Martin Vechev}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{SWT-Bench: Testing and Validating Real-World
+  Bug-Fixes with Code Agents}}.
+\newblock \bibinfo{howpublished}{arXiv:2406.12952}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2406.12952}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Pan et~al\mbox{.}(2025)]%
+        {A02}
+\bibfield{author}{\bibinfo{person}{Rangeet Pan}, \bibinfo{person}{Raju
+  Pavuluri}, \bibinfo{person}{Ruikai Huang}, \bibinfo{person}{Rahul Krishna},
+  \bibinfo{person}{Tyler Stennett}, \bibinfo{person}{Alessandro Orso}, {and}
+  \bibinfo{person}{Saurabh SInha}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{SAINT: Service-level Integration Test Generation
+  with Program Analysis and LLM-based Agents}}.
+\newblock \bibinfo{howpublished}{arXiv:2511.13305}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2511.13305}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Pereira et~al\mbox{.}(2026)]%
+        {R04}
+\bibfield{author}{\bibinfo{person}{Andr{\'e} Pereira}, \bibinfo{person}{Bruno
+  Lima}, {and} \bibinfo{person}{Jo{\~a}o~Pascoal Faria}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{APITestGenie: Generating Web API Tests from
+  Requirements and API Specifications with LLMs}}.
+\newblock \bibinfo{howpublished}{arXiv:2604.02039}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2604.02039}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Pizzorno and Berger(2025)]%
+        {U05}
+\bibfield{author}{\bibinfo{person}{Juan~Altmayer Pizzorno} {and}
+  \bibinfo{person}{Emery~D. Berger}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{CoverUp: Effective High Coverage Test Generation
+  for Python}}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Software
+  Engineering}} \bibinfo{volume}{2}, \bibinfo{number}{FSE}
+  (\bibinfo{year}{2025}), \bibinfo{pages}{2897--2919}.
+\newblock
+\href{https://doi.org/10.1145/3729398}{doi:\nolinkurl{10.1145/3729398}}
+
+
+\bibitem[Prasad et~al\mbox{.}(2025)]%
+        {T05}
+\bibfield{author}{\bibinfo{person}{Archiki Prasad}, \bibinfo{person}{Elias
+  Stengel-Eskin}, \bibinfo{person}{Justin Chih-Yao Chen}, \bibinfo{person}{Zaid
+  Khan}, {and} \bibinfo{person}{Mohit Bansal}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{Learning to Generate Unit Tests for Automated
+  Debugging}}.
+\newblock \bibinfo{howpublished}{arXiv:2502.01619}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2502.01619}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Ryan et~al\mbox{.}(2024)]%
+        {U03}
+\bibfield{author}{\bibinfo{person}{Gabriel Ryan}, \bibinfo{person}{Siddhartha
+  Jain}, \bibinfo{person}{Mingyue Shang}, \bibinfo{person}{Shiqi Wang},
+  \bibinfo{person}{Xiaofei Ma}, \bibinfo{person}{Murali~Krishna Ramanathan},
+  {and} \bibinfo{person}{Baishakhi Ray}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{Code-Aware Prompting: A study of Coverage Guided
+  Test Generation in Regression Setting using LLM}}.
+\newblock \bibinfo{howpublished}{arXiv:2402.00097}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2402.00097}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Sch{\"a}fer et~al\mbox{.}(2023)]%
+        {U01}
+\bibfield{author}{\bibinfo{person}{Max Sch{\"a}fer}, \bibinfo{person}{Sarah
+  Nadi}, \bibinfo{person}{Aryaz Eghbali}, {and} \bibinfo{person}{Frank Tip}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{An Empirical Evaluation of Using Large Language
+  Models for Automated Unit Test Generation}}.
+\newblock \bibinfo{howpublished}{arXiv:2302.06527}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2302.06527}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Shin et~al\mbox{.}(2024)]%
+        {O02}
+\bibfield{author}{\bibinfo{person}{Seung~Yeob Shin}, \bibinfo{person}{Fabrizio
+  Pastore}, \bibinfo{person}{Domenico Bianculli}, {and}
+  \bibinfo{person}{Alexandra Baicoianu}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{Towards Generating Executable Metamorphic Relations
+  Using Large Language Models}}.
+\newblock \bibinfo{howpublished}{arXiv:2401.17019}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2401.17019}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Steenhoek et~al\mbox{.}(2023)]%
+        {T12}
+\bibfield{author}{\bibinfo{person}{Benjamin Steenhoek},
+  \bibinfo{person}{Michele Tufano}, \bibinfo{person}{Neel Sundaresan}, {and}
+  \bibinfo{person}{Alexey Svyatkovskiy}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{Reinforcement Learning from Automatic Feedback for
+  High-Quality Unit Test Generation}}.
+\newblock \bibinfo{howpublished}{arXiv:2310.02368}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2310.02368}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Stennett et~al\mbox{.}(2025)]%
+        {A01}
+\bibfield{author}{\bibinfo{person}{Tyler Stennett}, \bibinfo{person}{Myeongsoo
+  Kim}, \bibinfo{person}{Saurabh Sinha}, {and} \bibinfo{person}{Alessandro
+  Orso}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{AutoRestTest: A Tool for Automated REST API Testing
+  Using LLMs and MARL}}.
+\newblock \bibinfo{howpublished}{arXiv:2501.08600}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2501.08600}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Sung et~al\mbox{.}(2025)]%
+        {T09}
+\bibfield{author}{\bibinfo{person}{Sicheol Sung}, \bibinfo{person}{{Aditi}},
+  \bibinfo{person}{Dogyu Kim}, \bibinfo{person}{Yo-Sub Han}, {and}
+  \bibinfo{person}{Sang-Ki Ko}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{LogiCase: Effective Test Case Generation from
+  Logical Description in Competitive Programming}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Thirty-Fourth International
+  Joint Conference on Artificial Intelligence}}.
+  \bibinfo{publisher}{International Joint Conferences on Artificial
+  Intelligence Organization}, \bibinfo{pages}{7742--7750}.
+\newblock
+\href{https://doi.org/10.24963/ijcai.2025/861}{doi:\nolinkurl{10.24963/ijcai.2025/861}}
+
+
+\bibitem[Takerngsaksiri et~al\mbox{.}(2025)]%
+        {T01}
+\bibfield{author}{\bibinfo{person}{Wannita Takerngsaksiri},
+  \bibinfo{person}{Rujikorn Charakorn}, \bibinfo{person}{Chakkrit
+  Tantithamthavorn}, {and} \bibinfo{person}{Yuan-Fang Li}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{PyTester: Deep Reinforcement Learning for
+  Text-to-Testcase Generation}}.
+\newblock \bibinfo{journal}{\emph{Journal of Systems and Software}}
+  \bibinfo{volume}{224} (\bibinfo{year}{2025}), \bibinfo{pages}{112381}.
+\newblock
+\href{https://doi.org/10.1016/j.jss.2025.112381}{doi:\nolinkurl{10.1016/j.jss.2025.112381}}
+
+
+\bibitem[Tasarsu et~al\mbox{.}(2026)]%
+        {S07}
+\bibfield{author}{\bibinfo{person}{Murat Tasarsu}, \bibinfo{person}{Ahmet~Vedat
+  Tokmak}, {and} \bibinfo{person}{Cagatay Catal}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{Test case generation using large language models:
+  a systematic literature review}}.
+\newblock \bibinfo{journal}{\emph{Cluster Computing}} \bibinfo{volume}{29},
+  \bibinfo{number}{4}, Article \bibinfo{articleno}{227} (\bibinfo{year}{2026}).
+\newblock
+\href{https://doi.org/10.1007/s10586-026-06021-z}{doi:\nolinkurl{10.1007/s10586-026-06021-z}}
+
+
+\bibitem[Tufano et~al\mbox{.}(2020)]%
+        {U11}
+\bibfield{author}{\bibinfo{person}{Michele Tufano}, \bibinfo{person}{Dawn
+  Drain}, \bibinfo{person}{Alexey Svyatkovskiy}, \bibinfo{person}{Shao~Kun
+  Deng}, {and} \bibinfo{person}{Neel Sundaresan}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{{Unit Test Case Generation with Transformers and
+  Focal Context}}.
+\newblock \bibinfo{howpublished}{arXiv:2009.05617}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2009.05617}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Vathana et~al\mbox{.}(2026)]%
+        {E01}
+\bibfield{author}{\bibinfo{person}{Phouvadeth Vathana}, \bibinfo{person}{Prapti
+  Bhatt}, \bibinfo{person}{Rishi Patel}, {and} \bibinfo{person}{Nasir~U.
+  Eisty}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{LLM vs. Human Unit Tests: Fault Detection on Real
+  Python Bugs}}.
+\newblock \bibinfo{howpublished}{arXiv:2606.08588}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2606.08588}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Wang et~al\mbox{.}(2023)]%
+        {S01}
+\bibfield{author}{\bibinfo{person}{Junjie Wang}, \bibinfo{person}{Yuchao
+  Huang}, \bibinfo{person}{Chunyang Chen}, \bibinfo{person}{Zhe Liu},
+  \bibinfo{person}{Song Wang}, {and} \bibinfo{person}{Qing Wang}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{Software Testing with Large Language Models: Survey,
+  Landscape, and Vision}}.
+\newblock \bibinfo{howpublished}{arXiv:2307.07221}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2307.07221}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Wang et~al\mbox{.}(2025)]%
+        {B02}
+\bibfield{author}{\bibinfo{person}{Wenhan Wang}, \bibinfo{person}{Chenyuan
+  Yang}, \bibinfo{person}{Zhijie Wang}, \bibinfo{person}{Yuheng Huang},
+  \bibinfo{person}{Zhaoyang Chu}, \bibinfo{person}{Da Song},
+  \bibinfo{person}{Lingming Zhang}, \bibinfo{person}{An~Ran Chen}, {and}
+  \bibinfo{person}{Lei Ma}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{TESTEVAL: Benchmarking Large Language Models for
+  Test Case Generation}}. In \bibinfo{booktitle}{\emph{Findings of the
+  Association for Computational Linguistics: NAACL 2025}}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{pages}{3547--3562}.
+\newblock
+\href{https://doi.org/10.18653/v1/2025.findings-naacl.197}{doi:\nolinkurl{10.18653/v1/2025.findings-naacl.197}}
+
+
+\bibitem[Wang et~al\mbox{.}(2026)]%
+        {F07}
+\bibfield{author}{\bibinfo{person}{Yiyi Wang}, \bibinfo{person}{Dongsong Yu},
+  \bibinfo{person}{Ruiqi Dong}, \bibinfo{person}{Yiyang Chen},
+  \bibinfo{person}{Xiaogang Zhu}, {and} \bibinfo{person}{Chao Zhang}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{Bulbasaur: Branch-Guided Online Mutator Generation
+  for Greybox Fuzzing}}. In \bibinfo{booktitle}{\emph{35th USENIX Security
+  Symposium}}. \bibinfo{publisher}{USENIX Association},
+  \bibinfo{address}{Baltimore, MD}, \bibinfo{pages}{4089--4108}.
+\newblock
+\urldef\tempurl%
+\url{https://www.usenix.org/conference/usenixsecurity26/presentation/wang-yiyi}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Xia et~al\mbox{.}(2023)]%
+        {F03}
+\bibfield{author}{\bibinfo{person}{Chunqiu~Steven Xia}, \bibinfo{person}{Matteo
+  Paltenghi}, \bibinfo{person}{Jia~Le Tian}, \bibinfo{person}{Michael Pradel},
+  {and} \bibinfo{person}{Lingming Zhang}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{Fuzz4All: Universal Fuzzing with Large Language
+  Models}}.
+\newblock \bibinfo{howpublished}{arXiv:2308.04748}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2308.04748}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Xu et~al\mbox{.}(2026)]%
+        {T07}
+\bibfield{author}{\bibinfo{person}{Jiacheng Xu}, \bibinfo{person}{Wentao
+  Zhang}, \bibinfo{person}{Zhiyi Lyu}, \bibinfo{person}{Fuxiang Zhang},
+  \bibinfo{person}{Chaojie Wang}, \bibinfo{person}{Yang Liu}, {and}
+  \bibinfo{person}{Bo An}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{Two-Stage Reinforcement Learning for Sound and
+  Adversarial Test Generation in Code LLMs}}.
+\newblock \bibinfo{howpublished}{arXiv:2609.03955}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2609.03955}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Xu et~al\mbox{.}(2025)]%
+        {O06}
+\bibfield{author}{\bibinfo{person}{Qinghua Xu}, \bibinfo{person}{Guancheng
+  Wang}, \bibinfo{person}{Lionel Briand}, {and} \bibinfo{person}{Kui Liu}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{Hallucination to Consensus: Multi-Agent LLMs for
+  End-to-End JUnit Test Generation}}.
+\newblock \bibinfo{howpublished}{arXiv:2506.02943}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2506.02943}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Yang et~al\mbox{.}(2025)]%
+        {S05}
+\bibfield{author}{\bibinfo{person}{Zhenzhen Yang}, \bibinfo{person}{Rubing
+  Huang}, \bibinfo{person}{Chenhui Cui}, \bibinfo{person}{Nan Niu}, {and}
+  \bibinfo{person}{Dave Towey}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{Requirements-Based Test Generation: A Comprehensive
+  Survey}}.
+\newblock \bibinfo{howpublished}{arXiv:2505.02015}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2505.02015}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Yoon et~al\mbox{.}(2023)]%
+        {A03}
+\bibfield{author}{\bibinfo{person}{Juyeon Yoon}, \bibinfo{person}{Robert
+  Feldt}, {and} \bibinfo{person}{Shin Yoo}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{Autonomous Large Language Model Agents Enabling
+  Intent-Driven Mobile GUI Testing}}.
+\newblock \bibinfo{howpublished}{arXiv:2311.08649}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2311.08649}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2025a)]%
+        {S02}
+\bibfield{author}{\bibinfo{person}{Quanjun Zhang}, \bibinfo{person}{Chunrong
+  Fang}, \bibinfo{person}{Siqi Gu}, \bibinfo{person}{Ye Shang},
+  \bibinfo{person}{Zhenyu Chen}, {and} \bibinfo{person}{Liang Xiao}.}
+  \bibinfo{year}{2025}\natexlab{a}.
+\newblock \bibinfo{title}{{Large Language Models for Unit Testing: A Systematic
+  Literature Review}}.
+\newblock \bibinfo{howpublished}{arXiv:2506.15227}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2506.15227}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2026)]%
+        {U09}
+\bibfield{author}{\bibinfo{person}{Quanjun Zhang}, \bibinfo{person}{Ye Shang},
+  \bibinfo{person}{Siqi Gu}, \bibinfo{person}{Jianyi Zhou},
+  \bibinfo{person}{Chunrong Fang}, \bibinfo{person}{Zhenyu Chen}, {and}
+  \bibinfo{person}{Liang Xiao}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{Multi-Agent LLM Collaboration for Unit Test
+  Generation via Human-Testing-Inspired Workflows}}.
+\newblock \bibinfo{howpublished}{arXiv:2607.09101}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2607.09101}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2025b)]%
+        {U08}
+\bibfield{author}{\bibinfo{person}{Yuwei Zhang}, \bibinfo{person}{Qingyuan Lu},
+  \bibinfo{person}{Kai Liu}, \bibinfo{person}{Wensheng Dou},
+  \bibinfo{person}{Jiaxin Zhu}, \bibinfo{person}{Li Qian},
+  \bibinfo{person}{Chunxi Zhang}, \bibinfo{person}{Zheng Lin}, {and}
+  \bibinfo{person}{Jun Wei}.} \bibinfo{year}{2025}\natexlab{b}.
+\newblock \bibinfo{title}{{CITYWALK: Enhancing LLM-Based C++ Unit Test
+  Generation via Project-Dependency Awareness and Language-Specific
+  Knowledge}}.
+\newblock \bibinfo{howpublished}{arXiv:2501.16155}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2501.16155}
+\showURL{%
+\tempurl}
+
+
+\end{thebibliography}

@@ -1,0 +1,40 @@
+\section{Practical Integration and Research Agenda}
+\label{sec:agenda}
+\subsection{Choose a Workflow from the Testing Objective}
+Workflow selection starts with the behavioral decision a test should support, the available sources of intended behavior, and the missing artifact. These choices determine suitable generation mechanisms and acceptance checks.
+
+For regression augmentation, existing tests, repository analysis, and coverage feedback can provide a productive starting point. TestGen-LLM offers an industrial example of integrating generated improvements through operational filters~\cite{U07}. For conformance testing, external requirements and oracle provenance become central. For fuzzing, reusable generators and suitable failure detectors may matter more than natural-language expected outputs. For interactive code generation, user-confirmed examples can resolve ambiguity that execution alone cannot settle, as illustrated by TiCoder~\cite{T11}.
+
+Invalid tests can block builds or prompt changes to correct code, while weak tests can add little detection ability. Preserving each assertion's supporting requirement or observation helps review acceptance decisions and maintain the test as software changes.
+
+\subsection{Industrial Adoption and Human Revision}
+Industrial evidence includes different acceptance decisions. TestGen-LLM studies improvement of existing tests through operational filtering~\cite{U07}; the acceptance-testing case study evaluates both generated scenarios and their conversion into executable scripts~\cite{R03}. RAGTAG and system-level test-specification generation additionally involve domain interpretation and assessment~\cite{R01,R02}. A scenario judged useful by an engineer and a script accepted into a regression workflow are distinct outcomes.
+
+A deployment evaluation should retain these stages: generated, reviewed, revised, executed, and adopted. Human effort includes interpreting requirements, supplying missing context, correcting assertions, and maintaining the accepted test. Reporting the time and rejection reasons at each stage would connect the artifact's technical quality to its actual workflow value. The reviewed examples motivate these dimensions; this synthesis does not pool their heterogeneous adoption measures.
+
+\subsection{Oracle Provenance and Independent Validation}
+A promising research direction is to make oracle provenance explicit in the generated artifact. An assertion could carry a link to a requirement clause, a validated example, a formal property, or a documented regression observation. Such links would help reviewers distinguish a semantic claim from an implementation-derived snapshot. They could also guide repair: changing a fixture and changing a requirement-backed assertion would trigger different validation steps.
+
+The research question is whether provenance improves correctness and maintenance decisions. A controlled study could compare the same generator with and without provenance requirements while holding generation budget constant. Evaluation would measure unsupported assertions, rejection of legal implementations, independent fault detection, and human review time. Merely generating plausible explanatory text would not answer the question; the evidence links must be checked against their sources.
+
+\subsection{Feedback That Preserves Valid Tests}
+Current feedback mechanisms motivate a more precise objective for test repair: recover invalid tests while preserving valid ones. A useful evaluation would branch from the same initial test and apply alternative feedback policies. It would separately count invalid-to-valid recovery and valid-to-invalid regression, then assess the final suites on independent implementations. This design can distinguish a policy that fixes setup errors from one that improves passing rates by weakening assertions.
+
+Possible mechanisms include separating setup repair from oracle revision, querying a reference only for disputed behavior, and asking a human to resolve genuine requirement ambiguity. The appropriate choice depends on the available evidence and its cost. The decisive comparison is against simpler policies, including no semantic repair and direct reference checking, rather than against an unconstrained baseline with less information.
+
+\subsection{Generalization in Learned and Adversarial Testers}
+Adversarial learning offers a route to test generators that adapt to difficult errors~\cite{T02,T03,T07}. A central open question is whether the learned capability survives a change of code generator, domain, repository, or specification style. Evaluation should freeze the tester before exposing it to new tasks and separate those tasks from any adversarial curriculum construction. This would distinguish transferable capability from continued search over the evaluation instances.
+
+Training research also needs a clearer account of test-level credit. A suite can contain both useful and misleading tests, while its aggregate reward hides which assertion caused a gain or failure. Comparing suite-level rewards with verified test-level feedback could reveal whether finer attribution improves learning. Such an investigation should retain final validity constraints and independent detection, because optimizing a more detailed proxy can still optimize the wrong property.
+
+\subsection{Repository Scale and Lifecycle Evaluation}
+Repository-scale evaluation should include environment construction, integration with existing tests, and maintenance across changes. TestGenEval, CITYWALK, and service-level testing provide complementary starting points~\cite{B01,U08,A02}. The next step is to evaluate an artifact over time: whether it remains executable, whether its oracle should change, and whether its provenance supports that decision.
+
+Software evolution introduces two different cases. A semantics-preserving change should generally preserve a functional oracle. A deliberate requirements change can make an old oracle obsolete. Studies of test generation under evolution and of database-test flakiness show why these dimensions need explicit treatment~\cite{E02,E03}. A lifecycle benchmark should label the intended behavioral change, retain prior test versions, and measure maintenance effort together with detection of unintended regressions.
+
+The same principle applies to context reuse. Existing tests are valuable examples, but they can carry unstable timing assumptions, brittle fixtures, or outdated requirements. Research should investigate which context should be inherited and which should be revalidated. Comparing unrestricted retrieval with version-aware and requirement-aware retrieval would help determine whether additional context improves long-term reliability.
+
+\subsection{Reproducible Evidence and Efficient Allocation}
+Reproducibility packages should expose the path from request to retained suite. Relevant records include model and prompt versions, context selection, generated candidates, tool feedback, repairs, rejection reasons, and final evaluation inputs. This enables analysis of why one method succeeds and whether its filters hide a large failure burden. For training methods, data construction and reward implementation are equally important.
+
+Budget allocation is another cross-cutting research question. A fixed budget can be spent on generating more candidates, checking oracles, executing additional faults, or resolving uncertain requirements. Dynamic scaling in CodeRM~\cite{T06} and reusable fuzzing infrastructure~\cite{F05,F06,F07} illustrate different responses to this allocation problem. A broader study could compare these investments under a common deployment objective, such as maximizing independent detection while bounding invalid-suite rate and latency.

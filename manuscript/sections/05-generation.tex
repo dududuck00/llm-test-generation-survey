@@ -1,0 +1,63 @@
+\section{Generation Mechanisms}
+\label{sec:generation}
+\subsection{Context Construction and Task Decomposition}
+Prompting determines which parts of a testing problem the model sees at once. Direct prompts usually combine a target, an instruction, and a desired output format. Examples can provide the test framework, naming conventions, and assertion style. Context construction becomes a substantive method contribution when it selects information needed to resolve dependencies or infer the intended behavior. TestPilot and ChatUniTest illustrate focal-code and environment-aware construction~\cite{U01,U02}; RAGTAG illustrates retrieval of domain material for requirements interpretation~\cite{R01}.
+
+Retrieval has two separable functions. It can supply technical facts needed for execution, such as an API signature, or behavioral facts needed for an oracle, such as a business rule. These should be evaluated independently. An increase in compilation success can establish that retrieved API facts were useful without establishing that the retrieved business rule was current or applicable. Useful ablations would hold the model and budget constant while removing each kind of retrieved context in turn.
+
+Decomposition can expose intermediate decisions. SymPrompt structures coverage-guided prompting around execution paths~\cite{U03}. Requirements pipelines separate interpretation, scenario construction, and script generation~\cite{R02,R03}. Decomposition is particularly helpful for analysis because it makes failures attributable: an omitted scenario differs from an invalid locator or a wrong expected value. At the same time, intermediate artifacts can transmit an early misunderstanding to every later stage. Their value should be evaluated by final test behavior together with stage-specific error rates.
+
+\subsection{Input, State, and Environment Construction}
+Input construction must satisfy both the external input domain and the execution interface. Grammar-based methods such as SAGE and LogiCase make admissible input structures explicit~\cite{T08,T09}; repository-oriented approaches must also recover fixtures and dependencies~\cite{U08}. For API and GUI testing, validity extends to action order and state: a well-formed request can still be unusable before a required resource is created~\cite{A01,A02,A03}. These mechanisms solve different parts of reaching a meaningful observation.
+
+The sorting example in Section~\ref{sec:framework} illustrates this separation. A valid input can exercise duplicate keys, while setup must preserve a copy of the original collection so that input mutation remains observable. Generating sorted expected values alone would miss this setup obligation. Evaluations should therefore distinguish rejected inputs, failed setup, and assertion failures instead of combining them into one unsuccessful-test count.
+
+\subsection{Oracle Construction and Representation}
+An oracle can predict an exact result, check a property, relate several executions, or obtain a human judgment. Postconditions and executable metamorphic relations express behavioral constraints~\cite{O01,O02}; TiCoder obtains user feedback to clarify intended behavior~\cite{T11}; Nexus and CANDOR use agent interaction in oracle construction~\cite{O03,O06}. The representation determines which behaviors the test can express, while the evidence source determines why those behaviors should be accepted.
+
+For sorting, checking ordering, permutation preservation, and unchanged input directly represents the stated obligations. An exact sequence can add an unintended stability requirement, whereas a relation between executions needs its own applicability conditions. This connects oracle representation to legal-behavior non-rejection. Agent consensus can help inspect the proposed assertion, but its semantic validity still depends on those obligations and supporting evidence.
+
+\subsection{Program Analysis and Hybrid Search}
+Program analysis provides explicit structure that the model would otherwise need to infer from text. Dependency information can identify construction requirements; call relationships can constrain operation sequences; coverage can identify unexercised branches. CITYWALK and SAINT illustrate different uses of program structure for executable testing~\cite{U08,A02}. The source of structure matters: a graph recovered from implementation describes reachable operations, while a behavioral contract specifies what those operations should mean.
+
+CODAMOSA combines search-based test generation with LLM-generated examples when coverage progress stalls~\cite{U04}. This division of labor is different from asking an LLM to generate an entire suite repeatedly. Search performs repeated local exploration, and the model supplies candidates that may open new regions. Fuzzing-driver and mutator generation extend the same principle to reusable generators~\cite{F05,F06,F07}. These systems should be analyzed by the interaction between components: when the LLM is invoked, which artifacts it changes, and how long those artifacts remain useful.
+
+Hybrid generation creates evaluation choices that can change the interpretation of a result. A stronger search engine, more execution time, or additional instrumentation can improve outcomes even when model-generated artifacts are unchanged. Comparisons should therefore account for both model cost and conventional execution cost. Component ablations should preserve the rest of the pipeline, including its stopping rule, so that a benefit can be attributed to the LLM contribution or the hybrid interaction.
+
+\subsection{Execution Feedback and Iterative Repair}
+Execution feedback ranges from syntax and import errors to coverage reports and assertion outcomes. These signals constrain different parts of a test. A syntax error localizes a malformed artifact. A missing dependency can reveal incomplete environment construction. An uncovered branch supplies an exploration target. An assertion failure is more ambiguous because the cause can lie in the test, the implementation, the environment, or the interpreted requirement.
+
+CoverUp uses coverage and execution information in iterative Python test generation~\cite{U05}. TestGen-LLM filters proposed improvements through operational criteria that support regression-test integration~\cite{U07}. MuTAP uses mutation testing to guide generation~\cite{U06}. These systems demonstrate that feedback can be used for different decisions: repair a candidate, reject it, request another test, or redirect search. Recording only that a system is ``execution-guided'' loses this distinction.
+
+For conformance testing, the decision following an assertion failure deserves special attention. Replacing the expected value with the candidate's observed output produces agreement, but it can also remove the discrepancy that the test was intended to expose. A more informative repair process distinguishes executable setup from semantic assertions. It can repair an import immediately while preserving an assertion until a requirement, trusted reference, or human decision explains the mismatch. This is a design implication of oracle provenance, rather than an assumption that all current feedback systems behave identically.
+
+RESTestBench makes the quality of SUT feedback an explicit evaluation issue by studying tests generated from requirements under different SUT conditions~\cite{B05}. This setting helps connect feedback research to requirements-based testing: the value of a repair signal depends on whether the observed behavior is itself valid. Paired evaluations starting from the same initial test would reveal both recovery of invalid tests and degradation of valid tests.
+
+\subsection{Agents, Collaboration, and Adversarial Generation}
+Agent architectures assign responsibilities such as planning, code generation, execution, and review to separate components. TestAgent follows a workflow inspired by human testing and incorporates static knowledge and tool use~\cite{U09}. CANDOR and Nexus emphasize collaboration around test oracles~\cite{O06,O03}. The analytical question is what separation changes: available information, decision authority, search diversity, or execution budget.
+
+Role separation alone does not imply independent evidence. Agents can share a base model, examples, and incorrect assumptions. Conversely, two components using the same model can contribute different evidence if one checks a formal constraint or queries an independent source. Evaluations should consequently compare a multi-agent system with simpler workflows under matched information and budget. Useful controls include one agent with the combined context, repeated sampling followed by selection, and a deterministic checker for the property assigned to the reviewer.
+
+AdverTest pairs test and mutant agents in an adversarial generation loop~\cite{U10}. Such inference-time competition changes the current artifacts. It differs from reinforcement learning that changes model parameters across tasks, discussed in Section~\ref{sec:learning}. Both can expose weaknesses in an existing test suite, but their generalization claims differ. A stronger suite for the current target is evidence about search; a stronger frozen model on new tasks is evidence about learning.
+
+\begin{table}[t]
+\caption{Representative mechanisms and the interpretation of their feedback. The last column describes the immediate evidence supplied by the signal, not the full set of claims in each paper.}
+\label{tab:mechanisms}
+\small
+\begin{tabularx}{\linewidth}{@{}p{.20\linewidth}YY@{}}
+\toprule
+Representative work & Main operation or feedback & Immediate interpretation \\
+\midrule
+SymPrompt~\cite{U03} & Path-oriented prompt decomposition & Guidance toward a structural target \\
+CODAMOSA~\cite{U04} & LLM candidates during search plateaus & New material for continued exploration \\
+CoverUp~\cite{U05} & Coverage and execution feedback & Reachability and artifact execution \\
+MuTAP~\cite{U06} & Surviving mutants guide prompts & Discrimination within a mutation model \\
+TestGen-LLM~\cite{U07} & Pass, stability, and coverage filters & Suitability for regression augmentation \\
+Nexus~\cite{O03} & Candidate execution and agent discussion & Executed behavior plus model interpretation \\
+AdverTest~\cite{U10} & Test--mutant interaction at inference & Adaptation to the current adversary \\
+Bulbasaur~\cite{F07} & Branch-guided mutator synthesis & Reusable input exploration capability \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Table~\ref{tab:mechanisms} summarizes the shared lesson across these mechanisms. Additional computation becomes useful through the information it introduces and the decisions it improves. The names of prompting strategies or agent roles are therefore less informative than their connection to an executable target and a justified oracle.

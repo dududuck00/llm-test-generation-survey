@@ -1,0 +1,45 @@
+\section{Review Scope and Synthesis Method}
+\label{sec:scope}
+\subsection{Research Questions}
+Six questions guide the synthesis and connect its sections:
+\begin{description}
+\item[RQ1: Objectives and artifacts.] Which testing objectives, systems, and levels are addressed, and what artifacts are generated? Section~\ref{sec:landscape} maps the settings and outputs.
+\item[RQ2: Information and oracles.] What information is available during training and generation, and where does evidence of correct behavior originate? Sections~\ref{sec:framework} and~\ref{sec:learning} distinguish access stages and sources.
+\item[RQ3: Generation strategies.] How are LLMs combined with retrieval, analysis, execution, search, and agents? Section~\ref{sec:generation} compares these mechanisms.
+\item[RQ4: Learning objectives.] What do training data, rewards, and adversarial curricula optimize? Section~\ref{sec:learning} examines learned generators.
+\item[RQ5: Evaluation evidence.] Which quality claims do benchmarks support, and under what conditions are results comparable? Section~\ref{sec:evaluation} analyzes protocols and measurements.
+\item[RQ6: Practical use and open problems.] What is supported by development-workflow evidence, and which capabilities still need validation? Section~\ref{sec:agenda} connects adoption, maintenance, and research directions.
+\end{description}
+
+\subsection{Collection and Selection}
+This survey is a structured narrative synthesis of a preliminary literature collection assembled through 28 September 2026. Discovery used public web search, primary publication pages, arXiv records, author-hosted resources, and references identified through existing surveys. Query families combined large language models with unit-test generation, requirements-based testing, oracle generation, API and GUI testing, fuzzing, reinforcement learning, and evaluation benchmarks. Named-method searches expanded these families to identify related versions and recent developments. The source register contains 60 records, including seven surveys and roadmaps; these counts describe the curated register rather than an exhaustive population of studies.
+
+We retained sources that describe an LLM or a relevant neural predecessor producing a testing artifact, or that directly evaluate such generation. Work on generated tests for debugging and code selection was included when it clarifies the role of test quality in a downstream task. General code generation and research concerned solely with testing an LLM itself fall outside the central scope. Selected earlier neural approaches provide historical context for focal-code conditioning and learned oracles~\cite{U11,O04}. Publicly accessible primary sources were preferred over secondary summaries. The initial retrieval excluded MDPI publications and sources with unclear provenance, which constrains source coverage.
+
+Related preprint and publication versions were treated as a study family. A changed title alone was not counted as a new method. The bibliography cites a verified publication record where available and otherwise identifies the accessible preprint. Publication status and evidence strength remain separate: a peer-reviewed abstract can establish a method's broad objective, while its detailed information access may still require inspection of the full text.
+
+\subsection{Extraction and Interpretation}
+The source register records the artifact, information sources, principal mechanism, analytical use, and depth of inspection for each entry. All records were checked against a primary-source page or document. Most were examined at the abstract and metadata level; selected full-text passages were inspected for survey taxonomies, oracle feedback, training rewards, and benchmark definitions. We use those sources for qualitative mechanism descriptions and do not pool effect sizes or construct a cross-paper performance ranking. No independent dual screening, inter-rater reliability measurement, or reproduction of reported experiments has been performed for this collection.
+
+The synthesis proceeds by separating three kinds of statements. Method descriptions explain what the cited work constructs or optimizes. Evaluation interpretations identify which property a reported protocol measures. Research recommendations follow from comparing those properties across settings. For example, the observation that a method checks a reference implementation is a description; the conclusion that this check establishes reference consistency is an interpretation; testing additional legal implementations is a recommended evaluation extension. Keeping these roles distinct makes the reasoning auditable without treating every recommendation as an empirical finding.
+
+AI assistance was used to expand search terms, organize retrieved literature, propose the cross-study categories, draft the synthesis, and design its conceptual figures. The accompanying register preserves source links and inspection depth. The present coding has not received independent human validation. This status is relevant because category assignments can affect the survey's conclusions even when individual bibliographic records are correct.
+
+\subsection{Relationship to Existing Reviews}
+\begin{table}[t]
+\caption{Existing review families and the emphasis of this synthesis. These are differences in scope and organization, not claims that individual topics were previously absent.}
+\label{tab:surveys}
+\small
+\begin{tabularx}{\linewidth}{@{}p{.24\linewidth}YY@{}}
+\toprule
+Review family & Established coverage & Emphasis here \\
+\midrule
+Broad testing surveys and roadmap~\cite{S01,S04} & Testing tasks, LLM techniques, challenges, repair-related applications & Connect generated artifacts to their oracle evidence \\
+Unit-testing surveys~\cite{S02,S03} & Generation methods, model adaptation, quality assurance, lifecycle concerns & Compare code-conditioned and specification-conditioned settings \\
+Requirements-based reviews~\cite{S05,S06} & Requirements representations, transformations, industrial use & Separate scenario design, input construction, and executable oracles \\
+LLM test-case SLR~\cite{S07} & Techniques, data, metrics, preprocessing and postprocessing & Track information access across training, inference, and assessment \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Table~\ref{tab:surveys} places this account alongside existing reviews. Its intended value is the connection between dimensions: how a feedback source affects oracle independence, how the generated artifact changes the evaluation denominator, and how training supervision constrains claims of autonomy. These connections also provide a common vocabulary for integrating 2026 work on adversarial training, agents, and test maintenance into the earlier literature.
