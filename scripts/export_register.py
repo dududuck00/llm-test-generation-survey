@@ -25,7 +25,7 @@ def main():
     supplemental_ids={row['id'] for row in supplement}
     extra_bib_ids=set(re.findall(r'@\w+\{([A-Z]\d{2}),',(ROOT/'supplemental-references.bib').read_text(encoding='utf-8')))
     if (len(ids)!=len(records) or len(supplemental_ids)!=len(supplement)
-            or bib_ids & extra_bib_ids or ids!=bib_ids|extra_bib_ids
+            or ids!=bib_ids or not extra_bib_ids<=bib_ids
             or supplemental_ids!=extra_bib_ids):
         raise ValueError('Duplicate IDs or register/bibliography/provenance IDs need review.')
     titles=[re.sub(r'[^a-z0-9]','',row['title'].lower()) for row in records]
@@ -36,6 +36,6 @@ def main():
     with output.open('w',encoding='utf-8',newline='') as stream:
         writer=csv.DictWriter(stream,fieldnames=list(records[0]))
         writer.writeheader();writer.writerows(records)
-    print(f'Exported {len(records)} unique records: {len(bib_ids)} manuscript bibliography IDs and {len(extra_bib_ids)} supplemental candidates.')
+    print(f'Exported {len(records)} unique records: {len(bib_ids)} manuscript bibliography IDs and {len(extra_bib_ids)} integrated supplemental provenance records.')
 
 if __name__=='__main__':main()

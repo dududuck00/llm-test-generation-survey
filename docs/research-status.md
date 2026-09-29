@@ -9,9 +9,9 @@
 - Selected records: relevant full-text passages checked; the register identifies inspection depth.
 - Pending: systematic multi-database retrieval, final study-family screening, complete variant-level coding, independent coding validation, and any quantitative synthesis.
 
-The current manuscript PDF, prose, citation set, and figures still reflect the original 60-record collection. The supplemental search does not imply that the manuscript has already been revised. See [supplemental synthesis](../supplemental-review.md) for chapter mapping and source-specific evidence boundaries. Two discovered surveys remain pending primary full-text access; withdrawn VisiDroid and hardware AssertionBench were not included in the core register.
+The revised manuscript integrates all 35 additions and cites all 95 source records. It has 18 body pages (including Data Availability) and four independently paginated reference pages. Three conceptual figures retain the approved design. See [revision notes](../manuscript/revision-notes.md) for the affected arguments and verification. See [supplemental synthesis](../supplemental-review.md) for chapter mapping and source-specific evidence boundaries. Two discovered surveys remain pending primary full-text access; withdrawn VisiDroid and hardware AssertionBench were not included in the core register.
 
-The S03 register entry now records arXiv v3 and its abstract-reported 178 publications through 31 July 2026. Its earlier v2 count of 115 and earlier full-text inspection should not be treated as a current-version full-text audit. The manuscript's discussion of existing reviews needs to be revisited during integration.
+The S03 register entry now records arXiv v3 and its abstract-reported 178 publications through 31 July 2026. Its earlier v2 count of 115 and earlier full-text inspection should not be treated as a current-version full-text audit. The revised manuscript distinguishes that current abstract count from its own differently scoped register.
 
 The repository contains no reproduced model-performance results, experiment logs, trained checkpoints, or evidence that a proposed research mechanism has been validated.
 
